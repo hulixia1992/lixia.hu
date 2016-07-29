@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/value_150dp"
+    android:layout_marginTop="@dimen/value_10dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/iv_music_item_pic"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginBottom="@dimen/value_10dp"
+        android:layout_marginLeft="@dimen/value_15dp"
+        android:layout_marginTop="@dimen/value_10dp"
+        android:src="@drawable/defult_music" />
+
+    <TextView
+        android:id="@+id/tv_music_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_music_item_pic"
+        android:layout_marginLeft="@dimen/value_10dp"
+        android:layout_toRightOf="@+id/iv_music_item_pic"
+        android:textColor="@color/orange_text"
+        android:textSize="@dimen/value_18dp" />
+
+    <TextView
+        android:id="@+id/tv_music_item_art"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_music_item_name"
+        android:layout_marginLeft="@dimen/value_10dp"
+        android:layout_marginTop="@dimen/value_5dp"
+        android:layout_toRightOf="@+id/iv_music_item_pic"
+        android:textColor="@color/text_gray"
+        android:textSize="@dimen/value_16sp" />
+
+    <TextView
+        android:id="@+id/tv_music_item_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_music_item_art"
+        android:layout_marginTop="@dimen/value_10dp"
+        android:layout_toRightOf="@+id/iv_music_item_pic" />
+
+    <ImageView
+        android:id="@+id/iv_music_item_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/value_15dp"
+        android:src="@drawable/music" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/value_0.5dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg_color" />
+</RelativeLayout>

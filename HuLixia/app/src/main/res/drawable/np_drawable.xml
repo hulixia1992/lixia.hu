@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nine-patch xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tint="#f0f786"
+    android:tintMode="src_over" android:src="@drawable/bg_card">
+
+</nine-patch>

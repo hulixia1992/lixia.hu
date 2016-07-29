@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HuLixia</string>
+    <string name="heart">喜欢人数</string>
+    <string name="svg_back">M 10,50 H 90</string>
+</resources>

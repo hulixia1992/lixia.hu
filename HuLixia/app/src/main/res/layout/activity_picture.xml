@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    tools:context="com.example.drum.hulixia.view.activity.PictureActivity">
+
+    <include layout="@layout/title" />
+
+    <!--<com.facebook.drawee.view.SimpleDraweeView-->
+        <!--android:id="@+id/sdv_picture_foods"-->
+        <!--android:layout_width="300dp"-->
+        <!--android:layout_height="300dp"-->
+        <!--android:layout_marginTop="@dimen/value_15dp"-->
+        <!--android:background="@color/white"-->
+        <!--app:placeholderImage="@drawable/loading_food" />-->
+    <ImageView
+        android:id="@+id/sdv_picture_foods"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

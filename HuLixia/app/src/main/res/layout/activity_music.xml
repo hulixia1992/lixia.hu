@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.example.drum.hulixia.view.activity.MusicActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_music_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <include layout="@layout/title" />
+
+        <Button
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_above="@+id/iv_music_pic"
+            android:text="按钮测试" />
+
+        <com.example.drum.hulixia.widget.PicImageView
+            android:id="@+id/iv_music_pic"
+            android:layout_width="@dimen/value_200dp"
+            android:layout_height="@dimen/value_200dp"
+            android:src="@drawable/defult_music"
+            android:layout_centerInParent="true" />
+
+        <com.example.drum.hulixia.widget.PicImageView
+            android:id="@+id/iv_music_pic1"
+            android:layout_width="@dimen/value_200dp"
+            android:layout_height="@dimen/value_200dp"
+            android:layout_centerInParent="true"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/iv_music_play"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_below="@+id/iv_music_pic"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/value_18sp"
+            android:src="@drawable/play" />
+
+        <ImageView
+            android:id="@+id/iv_music_last"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_alignLeft="@+id/iv_music_pic"
+            android:layout_below="@+id/iv_music_pic"
+            android:layout_marginTop="@dimen/value_18sp"
+            android:src="@drawable/last_song" />
+
+        <ImageView
+            android:id="@+id/iv_music_next"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_alignRight="@+id/iv_music_pic"
+            android:layout_below="@+id/iv_music_pic"
+            android:layout_marginTop="@dimen/value_18sp"
+            android:src="@drawable/next_song" />
+
+        <TextView
+            android:id="@+id/tv_music_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_music_last"
+            android:layout_marginRight="@dimen/value_15dp"
+            android:layout_marginTop="@dimen/value_15dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/value_18dp" />
+    </RelativeLayout>
+</RelativeLayout>

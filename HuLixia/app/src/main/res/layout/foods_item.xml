@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="@dimen/value_15dp"
+    android:layout_marginRight="@dimen/value_15dp"
+    android:background="@drawable/bg_card"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sdv_foods_item"
+        android:layout_width="@dimen/value_200dp"
+        android:layout_height="@dimen/value_200dp"
+        android:gravity="center"
+        app:placeholderImage="@drawable/loading_food"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tv_foods_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sdv_foods_item"
+        android:gravity="center"
+        android:textColor="@color/text_gray"
+        android:textSize="@dimen/value_18sp"
+        tools:text="美食标题" />
+
+    <TextView
+        android:id="@+id/tv_foods_item_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_foods_item_title"
+        android:layout_marginTop="@dimen/value_10dp"
+        android:gravity="center"
+        android:textColor="@color/text_gray_little"
+        android:textSize="@dimen/value_16sp"
+        tools:text="美食描述" />
+
+    <ImageView
+        android:id="@+id/iv_foods_item_heart"
+        android:layout_width="@dimen/value_18dp"
+        android:layout_height="@dimen/value_18dp"
+        android:layout_below="@+id/tv_foods_item_desc"
+        android:layout_marginBottom="@dimen/value_15dp"
+        android:layout_marginRight="@dimen/value_15dp"
+        android:layout_marginTop="@dimen/value_10dp"
+        android:contentDescription="@string/heart"
+        android:src="@drawable/heart" />
+
+    <TextView
+        android:id="@+id/tv_foods_item_heart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_foods_item_heart"
+        android:layout_below="@+id/tv_foods_item_desc"
+        android:layout_toRightOf="@+id/iv_foods_item_heart"
+        android:gravity="bottom"
+        android:textColor="@color/heart_color"
+        android:textSize="@dimen/value_12sp"
+        tools:text="1202" />
+</RelativeLayout>
