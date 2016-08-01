@@ -22,7 +22,7 @@
         <!-- <activity android:name=".daggertest.OtherActivit" /> -->
         <!-- <activity android:name=".daggertest.AActivity"></activity> -->
         <activity android:name=".view.AlertActivity" />
-        <activity android:name=".view.WelcomeActivity">
+        <activity android:name="com.example.drum.hulixia.view.WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
