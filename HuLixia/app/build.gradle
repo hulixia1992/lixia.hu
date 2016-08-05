@@ -20,8 +20,13 @@ android {
     }
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField 'boolean', 'IS_DEBUG', 'false'
+        }
+        debug {
+            buildConfigField 'String', 'LOG_TAG', '"hulixia"'
+            buildConfigField 'boolean', 'IS_DEBUG', 'true'
         }
     }
 
