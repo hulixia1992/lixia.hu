@@ -22,14 +22,19 @@
         <!-- <activity android:name=".daggertest.OtherActivit" /> -->
         <!-- <activity android:name=".daggertest.AActivity"></activity> -->
         <activity android:name=".view.AlertActivity" />
-        <activity android:name="com.example.drum.hulixia.view.WelcomeActivity">
+        <activity android:name=".view.WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.activity.MusicActivity"></activity>
+        <activity android:name=".view.activity.MusicActivity" />
+        <activity
+            android:name=".view.activity.LoginActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".view.activity.RegisterActivity"
+            android:theme="@style/Translucent"  />
     </application>
 
 </manifest>

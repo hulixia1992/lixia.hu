@@ -18,6 +18,7 @@ import android.widget.Toast;
 import com.example.drum.hulixia.R;
 import com.example.drum.hulixia.adapter.MainStatePagerAdapter;
 import com.example.drum.hulixia.presenter.MainPresenter;
+import com.example.drum.hulixia.view.activity.LoginActivity;
 import com.example.drum.hulixia.view.fragment.FoodsFragment;
 import com.example.drum.hulixia.view.fragment.MainFragment;
 import com.example.drum.hulixia.view.fragment.NewFragment;
@@ -102,7 +103,9 @@ public class MainActivity extends AppCompatActivity implements IMainView {
         Snackbar.make(view, "查看个人信息?", Snackbar.LENGTH_SHORT).setAction("查看", new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "将跳转到个人信息", Toast.LENGTH_SHORT).show();
+                // Toast.makeText(MainActivity.this, "将跳转到个人信息", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+                startActivity(intent);
             }
         }).show();
     }

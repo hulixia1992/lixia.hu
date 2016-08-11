@@ -60,6 +60,7 @@ public class BaseActivity extends AppCompatActivity {
     }
 
     public void finishActivity() {
+      //  onBackPressed();
         finish();
     }
 }

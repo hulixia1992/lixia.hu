@@ -4,18 +4,19 @@ import android.app.ActivityOptions;
 import android.content.Intent;
 import android.os.Build;
 import android.support.design.widget.FloatingActionButton;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
 import com.example.drum.hulixia.R;
+import com.example.drum.hulixia.view.BaseActivity;
 
-public class LoginActivity extends AppCompatActivity {
+public class LoginActivity extends BaseActivity {
 private FloatingActionButton fab;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        initTitleView("登录");
         initView();
         initListener();
     }

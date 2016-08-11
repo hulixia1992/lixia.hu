@@ -38,6 +38,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.+'
     compile 'com.android.support:palette-v7:24.+'
     compile 'com.android.support:design:24.+'
+    compile 'com.android.support:cardview-v7:24.+'
     compile 'io.reactivex:rxjava:1.1.0'
     compile 'io.reactivex:rxandroid:1.1.0'
     compile 'com.squareup.retrofit2:retrofit:2.0.0-beta4'
@@ -55,4 +56,5 @@ dependencies {
     apt 'com.google.dagger:dagger-compiler:2.2'
     compile 'com.google.dagger:dagger:2.2'
     provided 'javax.annotation:jsr250-api:1.0'
+    compile 'com.github.zomato:androidphotofilters:1.0.1'
 }

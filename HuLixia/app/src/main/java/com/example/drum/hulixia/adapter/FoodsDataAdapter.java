@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import com.example.drum.hulixia.R;
 import com.example.drum.hulixia.data.main_data.entity.SanCanItem;
+import com.example.drum.hulixia.util.image_cache.ImageDownloadUtils;
 import com.facebook.drawee.view.SimpleDraweeView;
 
 import java.util.ArrayList;
@@ -41,7 +42,8 @@ public class FoodsDataAdapter extends RecyclerView.Adapter<FoodsDataAdapter.Food
         holder.tvTitle.setText(sanCanItem.title);
         holder.tvHeart.setText(sanCanItem.fav_num);
         holder.tvDesc.setText(sanCanItem.descr);
-        holder.sdvImage.setImageURI(Uri.parse(sanCanItem.tj_img));
+     //   holder.sdvImage.setImageURI(Uri.parse(sanCanItem.tj_img));
+        ImageDownloadUtils.getInstance().getBitmapToIV(sanCanItem.tj_img,holder.sdvImage);
         holder.sdvImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

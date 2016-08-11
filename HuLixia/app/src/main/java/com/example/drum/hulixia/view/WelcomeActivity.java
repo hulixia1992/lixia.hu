@@ -8,7 +8,9 @@ import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 
+import com.example.drum.hulixia.BuildConfig;
 import com.example.drum.hulixia.R;
 import com.example.drum.hulixia.databinding.ActivityWelcomeBinding;
 import com.example.drum.hulixia.model.UserModel;
@@ -24,8 +26,11 @@ public class WelcomeActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-       binding= DataBindingUtil.setContentView(this,R.layout.activity_welcome);
-        binding.setUser(new UserModel("hulixia_hahha","24"));
+        if (BuildConfig.IS_DEBUG) {
+            Log.i("hulixia", "debug版本");
+        }
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_welcome);
+        binding.setUser(new UserModel("hulixia_hahha", "24"));
         initPermisson();
     }
 

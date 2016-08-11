@@ -5,6 +5,8 @@
     android:layout_height="match_parent"
     android:background="@drawable/login_bg">
 
+    <include layout="@layout/title" />
+
     <android.support.v7.widget.CardView
         android:id="@+id/cv"
         android:layout_width="300dp"
@@ -105,9 +107,9 @@
                     android:layout_width="150dp"
                     android:layout_height="50dp"
                     android:background="@color/main_color"
-                    android:text="登录"
                     android:stateListAnimator="@drawable/state_list_animator_z"
-                    android:textColor="#d3d3d3"/>
+                    android:text="登录"
+                    android:textColor="#d3d3d3" />
             </RelativeLayout>
 
             <TextView

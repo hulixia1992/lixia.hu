@@ -10,10 +10,13 @@ import android.widget.ImageView;
 
 import com.example.drum.hulixia.R;
 import com.example.drum.hulixia.constants.Constants;
+import com.example.drum.hulixia.util.image_cache.ImageDownloadUtils;
 import com.example.drum.hulixia.view.BaseActivity;
 import com.squareup.picasso.Picasso;
+import com.zomato.photofilters.imageprocessors.Filter;
+import com.zomato.photofilters.imageprocessors.subfilters.BrightnessSubfilter;
+import com.zomato.photofilters.imageprocessors.subfilters.ContrastSubfilter;
 
-import java.io.IOException;
 
 public class PictureActivity extends BaseActivity {
     private ImageView sdvPicture;
@@ -27,10 +30,15 @@ public class PictureActivity extends BaseActivity {
         }
     };
 
+    static {
+        System.loadLibrary("NativeImageProcessor");
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_picture);
+
         initView();
     }
 
@@ -39,7 +47,7 @@ public class PictureActivity extends BaseActivity {
         sdvPicture = (ImageView) findViewById(R.id.sdv_picture_foods);
         ViewCompat.setTransitionName(sdvPicture, Constants.PICTURE);
         imageUrl = getIntent().getStringExtra(Constants.IMAGE_URL);
-        Picasso.with(this).load(imageUrl).into(sdvPicture);
+        ImageDownloadUtils.getInstance().getBitmapToIV(imageUrl, sdvPicture);
         initToolbarColor();
 
     }
@@ -49,9 +57,12 @@ public class PictureActivity extends BaseActivity {
             @Override
             public void run() {
                 super.run();
-                Bitmap bitmap = null;
                 try {
-                    bitmap = Picasso.with(PictureActivity.this).load(imageUrl).get();
+                    Bitmap bitmap = Picasso.with(PictureActivity.this).load(imageUrl).get();
+                    Filter myFilter = new Filter();
+                    myFilter.addSubFilter(new BrightnessSubfilter(30));
+                    myFilter.addSubFilter(new ContrastSubfilter(1.1f));
+                    //  bitmap = myFilter.processFilter(outbitmap);
                     Palette.from(bitmap).generate(new Palette.PaletteAsyncListener() {
                         @Override
                         public void onGenerated(Palette palette) {
@@ -60,10 +71,14 @@ public class PictureActivity extends BaseActivity {
                             handler.sendMessage(msg);
                         }
                     });
-                } catch (IOException e) {
+                } catch (Exception e) {
                     e.printStackTrace();
                 }
             }
         }.start();
+    }
+
+    public void finishActivity() {
+        onBackPressed();
     }
 }
