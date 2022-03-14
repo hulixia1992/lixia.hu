@@ -1,31 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2022-03-11T10:31:52.242Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="8S7OjuM28kNvYX2SN29Q" version="17.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-14T02:34:10.394Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="FIPy2lMW2lYS9dnhArlg" version="17.1.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1632" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2272" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="RecommendFragment" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="-40" y="50" width="220" height="360" as="geometry" />
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="UI" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="-40" y="50" width="180" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="aHeLjXSiu2xdRoUsL6HB-8" value="1.将RVM注册到RF" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+        <mxCell id="aHeLjXSiu2xdRoUsL6HB-8" value="1.将ViewModel注册到UI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
           <mxGeometry x="150" y="50" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aHeLjXSiu2xdRoUsL6HB-21" value="6.界面自动刷新" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
           <mxGeometry x="130" y="300" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="RecommendViewModel" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="ViewModel" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="50" width="150" height="370" as="geometry" />
         </mxCell>
         <mxCell id="aHeLjXSiu2xdRoUsL6HB-12" value="2.获取推荐歌单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
           <mxGeometry x="110" y="60" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aHeLjXSiu2xdRoUsL6HB-2" value="MediaRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="aHeLjXSiu2xdRoUsL6HB-2" value="Repository" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="50" width="140" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="aHeLjXSiu2xdRoUsL6HB-3" value="MediaDataSource" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="aHeLjXSiu2xdRoUsL6HB-3" value="Repository" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="50" width="140" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="aHeLjXSiu2xdRoUsL6HB-5" value="KwApi" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="aHeLjXSiu2xdRoUsL6HB-5" value="KuWoSDK" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="50" width="80" height="320" as="geometry" />
         </mxCell>
         <mxCell id="aHeLjXSiu2xdRoUsL6HB-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-5" target="3nuBFxr9cyL0pnOWT2aG-1">
