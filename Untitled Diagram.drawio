@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-24T10:03:13.185Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="oDCWqPqbCHyNJkuhPm7x" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-24T10:15:17.439Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="rr-I9cwGxYa2691QwSz-" version="17.1.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="2272" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2272" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1368,56 +1368,182 @@
         <mxCell id="IUsoRmvWj31EffVFZJje-1" value="点击【歌单封面】/【歌单名称】" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="78" y="7360" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="IUsoRmvWj31EffVFZJje-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IUsoRmvWj31EffVFZJje-2" target="IUsoRmvWj31EffVFZJje-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="IUsoRmvWj31EffVFZJje-2" value="进入歌单详情" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="78" y="7440" width="120" height="60" as="geometry" />
+          <mxGeometry x="78" y="7440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IUsoRmvWj31EffVFZJje-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IUsoRmvWj31EffVFZJje-3" target="IUsoRmvWj31EffVFZJje-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IUsoRmvWj31EffVFZJje-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IUsoRmvWj31EffVFZJje-3" target="IUsoRmvWj31EffVFZJje-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IUsoRmvWj31EffVFZJje-3" value="是否异常" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="95" y="7510" width="80" height="80" as="geometry" />
+          <mxGeometry x="98" y="7510" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IUsoRmvWj31EffVFZJje-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IUsoRmvWj31EffVFZJje-4" target="IUsoRmvWj31EffVFZJje-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IUsoRmvWj31EffVFZJje-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IUsoRmvWj31EffVFZJje-4" target="IUsoRmvWj31EffVFZJje-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IUsoRmvWj31EffVFZJje-4" value="显示歌单详情(包括歌单列表)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="7610" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="IUsoRmvWj31EffVFZJje-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IUsoRmvWj31EffVFZJje-6" target="IUsoRmvWj31EffVFZJje-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IUsoRmvWj31EffVFZJje-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IUsoRmvWj31EffVFZJje-6" target="IUsoRmvWj31EffVFZJje-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="IUsoRmvWj31EffVFZJje-6" value="歌单是否收藏" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="7700" width="80" height="80" as="geometry" />
+          <mxGeometry x="-60" y="7680" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IUsoRmvWj31EffVFZJje-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IUsoRmvWj31EffVFZJje-8" target="IUsoRmvWj31EffVFZJje-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-125" y="7850" />
+              <mxPoint x="100" y="7850" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="IUsoRmvWj31EffVFZJje-8" value="收藏歌单" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="-185" y="7790" width="120" height="60" as="geometry" />
+          <mxGeometry x="-185" y="7770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IUsoRmvWj31EffVFZJje-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#B266FF;" edge="1" parent="1" source="IUsoRmvWj31EffVFZJje-9" target="IUsoRmvWj31EffVFZJje-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="7790" />
+              <mxPoint x="160" y="8030" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="IUsoRmvWj31EffVFZJje-9" value="取消收藏歌单" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="-25" y="7790" width="120" height="60" as="geometry" />
+          <mxGeometry x="35" y="7760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IUsoRmvWj31EffVFZJje-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IUsoRmvWj31EffVFZJje-12" target="IUsoRmvWj31EffVFZJje-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="7720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IUsoRmvWj31EffVFZJje-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IUsoRmvWj31EffVFZJje-12" target="IUsoRmvWj31EffVFZJje-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="7750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="7720" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="IUsoRmvWj31EffVFZJje-12" value="指定歌曲是否收藏" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="7700" width="80" height="80" as="geometry" />
+          <mxGeometry x="265" y="7680" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IUsoRmvWj31EffVFZJje-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#007FFF;" edge="1" parent="1" source="IUsoRmvWj31EffVFZJje-13" target="IUsoRmvWj31EffVFZJje-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="7870" />
+              <mxPoint x="100" y="7870" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="IUsoRmvWj31EffVFZJje-13" value="收藏歌曲" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="7790" width="120" height="60" as="geometry" />
+          <mxGeometry x="170" y="7770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IUsoRmvWj31EffVFZJje-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IUsoRmvWj31EffVFZJje-14" target="IUsoRmvWj31EffVFZJje-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="7880" />
+              <mxPoint x="230" y="7880" />
+              <mxPoint x="230" y="8030" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="IUsoRmvWj31EffVFZJje-14" value="取消收藏歌曲" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="7790" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="7770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IUsoRmvWj31EffVFZJje-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IUsoRmvWj31EffVFZJje-15" target="IUsoRmvWj31EffVFZJje-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IUsoRmvWj31EffVFZJje-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IUsoRmvWj31EffVFZJje-15" target="IUsoRmvWj31EffVFZJje-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IUsoRmvWj31EffVFZJje-15" value="是否登录" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-165" y="7870" width="80" height="80" as="geometry" />
+          <mxGeometry x="60" y="7900" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IUsoRmvWj31EffVFZJje-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IUsoRmvWj31EffVFZJje-16" target="IUsoRmvWj31EffVFZJje-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IUsoRmvWj31EffVFZJje-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IUsoRmvWj31EffVFZJje-16" target="IUsoRmvWj31EffVFZJje-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IUsoRmvWj31EffVFZJje-16" value="是否异常" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-165" y="7960" width="80" height="80" as="geometry" />
+          <mxGeometry x="60" y="7990" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="IUsoRmvWj31EffVFZJje-17" value="是否异常" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="7870" width="80" height="80" as="geometry" />
+        <mxCell id="IUsoRmvWj31EffVFZJje-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IUsoRmvWj31EffVFZJje-21" target="IUsoRmvWj31EffVFZJje-39">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IUsoRmvWj31EffVFZJje-20" value="是否异常" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="345" y="7870" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="IUsoRmvWj31EffVFZJje-21" value="收藏成功" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-180" y="8060" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="IUsoRmvWj31EffVFZJje-22" value="取消收藏成功" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="8060" width="120" height="60" as="geometry" />
+        <mxCell id="IUsoRmvWj31EffVFZJje-21" value="操作成功" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="8090" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IUsoRmvWj31EffVFZJje-23" value="跳转登录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-440" y="7890" width="120" height="60" as="geometry" />
+          <mxGeometry x="-210" y="7905" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IUsoRmvWj31EffVFZJje-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IUsoRmvWj31EffVFZJje-24" target="IUsoRmvWj31EffVFZJje-23">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IUsoRmvWj31EffVFZJje-24" value="是否同意登录" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-280" y="7880" width="80" height="80" as="geometry" />
+          <mxGeometry x="-55" y="7895" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IUsoRmvWj31EffVFZJje-25" value="提示异常(包括网络异常)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="8000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IUsoRmvWj31EffVFZJje-26" value="提示异常(包括网络异常)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="7520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IUsoRmvWj31EffVFZJje-39" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="8150" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IUsoRmvWj31EffVFZJje-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IUsoRmvWj31EffVFZJje-1" target="IUsoRmvWj31EffVFZJje-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-120" y="7510" as="sourcePoint" />
+            <mxPoint x="-70" y="7460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IUsoRmvWj31EffVFZJje-56" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="7720" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IUsoRmvWj31EffVFZJje-57" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="7720" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IUsoRmvWj31EffVFZJje-58" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="7720" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IUsoRmvWj31EffVFZJje-59" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="87.5" y="7710" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IUsoRmvWj31EffVFZJje-60" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="7895" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IUsoRmvWj31EffVFZJje-61" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="105" y="7960" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IUsoRmvWj31EffVFZJje-62" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="8060" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IUsoRmvWj31EffVFZJje-63" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="17.5" y="7990" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IUsoRmvWj31EffVFZJje-64" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="7580" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IUsoRmvWj31EffVFZJje-65" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="7520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IUsoRmvWj31EffVFZJje-66" value="歌单详情流程图" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="7390" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
