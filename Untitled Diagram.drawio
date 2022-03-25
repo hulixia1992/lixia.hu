@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T08:49:04.642Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="eUTkdrJMuPkd0q2HrdKB" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-25T08:57:20.379Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="2V1hgDR1vaI7bsU97mpm" version="17.1.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="2272" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1702,7 +1702,7 @@
           <mxGeometry x="340" y="8760" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IUsoRmvWj31EffVFZJje-107" value="会员购买流程图" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="-270" y="8960" width="120" height="80" as="geometry" />
+          <mxGeometry x="-260" y="8940" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IUsoRmvWj31EffVFZJje-117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000103;" edge="1" parent="1" source="IUsoRmvWj31EffVFZJje-108" target="IUsoRmvWj31EffVFZJje-109">
           <mxGeometry relative="1" as="geometry" />
@@ -1754,11 +1754,11 @@
         <mxCell id="IUsoRmvWj31EffVFZJje-126" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="65" y="9020" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IUsoRmvWj31EffVFZJje-127" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="IUsoRmvWj31EffVFZJje-127" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="55" y="9280" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IUsoRmvWj31EffVFZJje-128" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-55" y="9270" width="60" height="30" as="geometry" />
+        <mxCell id="IUsoRmvWj31EffVFZJje-128" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="9350" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IUsoRmvWj31EffVFZJje-129" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-50" y="9080" width="60" height="30" as="geometry" />
