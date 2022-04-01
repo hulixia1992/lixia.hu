@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-31T09:56:23.165Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="VTjb6aLLNUXAjBJ5FonQ" version="17.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-01T07:24:07.179Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="hb9cg8v0878mgvF7VPtZ" version="17.2.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="2272" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2272" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3002,7 +3002,7 @@
         <mxCell id="o-diHv8RgYlizK_aCs_f-482" value="ViewModel" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=30;" vertex="1" parent="1">
           <mxGeometry x="23.440000000000055" y="16310" width="121.05999999999995" height="640" as="geometry" />
         </mxCell>
-        <mxCell id="o-diHv8RgYlizK_aCs_f-543" value="14.设置-清除缓存/播放音质偏好设置/隐私条款。同上" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="o-diHv8RgYlizK_aCs_f-482">
+        <mxCell id="o-diHv8RgYlizK_aCs_f-543" value="14.设置-清除缓存/播放音质偏好设置。同上" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="o-diHv8RgYlizK_aCs_f-482">
           <mxGeometry x="-153.44000000000005" y="570" width="274.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o-diHv8RgYlizK_aCs_f-483" value="LiveData" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=30;" vertex="1" parent="1">
@@ -3198,6 +3198,153 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="200" y="17020" as="sourcePoint" />
             <mxPoint x="250" y="16970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-550" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;exitX=0.467;exitY=0.933;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.494;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="o-diHv8RgYlizK_aCs_f-481" target="o-diHv8RgYlizK_aCs_f-481">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-300" y="16900" as="sourcePoint" />
+            <mxPoint x="-250" y="16850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-190" y="16920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-551" value="隐私条款内部跳转" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="16870" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-552" value="歌手-时序图" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="17070" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-553" value="UI" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=30;" vertex="1" parent="1">
+          <mxGeometry x="-145.63" y="17070" width="75.63" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-559" value="展示数据注册到UI上" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="o-diHv8RgYlizK_aCs_f-553">
+          <mxGeometry x="59.63" y="50" width="80.37" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-554" value="ViewModel" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=30;" vertex="1" parent="1">
+          <mxGeometry x="101.43000000000006" y="17070" width="73.13" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-573" value="持有并初始化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="o-diHv8RgYlizK_aCs_f-554">
+          <mxGeometry x="-41.430000000000064" y="70" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-555" value="LiveData" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=30;" vertex="1" parent="1">
+          <mxGeometry x="1.4399999999999995" y="17110" width="73.13" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-556" value="Repository" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=30;" vertex="1" parent="1">
+          <mxGeometry x="199.68000000000006" y="17070" width="73.13" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-564" value="2.获取歌手列表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="o-diHv8RgYlizK_aCs_f-556">
+          <mxGeometry x="-60.930000000000064" y="100" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-557" value="KuWoSDK" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=30;" vertex="1" parent="1">
+          <mxGeometry x="330.00000000000006" y="17080" width="73.13" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-584" value="7.对应歌手音乐全部播放" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="o-diHv8RgYlizK_aCs_f-557">
+          <mxGeometry x="-85.00000000000006" y="320" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-558" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;exitX=0.467;exitY=0.52;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="o-diHv8RgYlizK_aCs_f-555" target="o-diHv8RgYlizK_aCs_f-553">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-80" y="17180" as="sourcePoint" />
+            <mxPoint x="-30" y="17130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-561" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;exitX=0.498;exitY=0.213;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="o-diHv8RgYlizK_aCs_f-553" target="o-diHv8RgYlizK_aCs_f-554">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-30" y="17230" as="sourcePoint" />
+            <mxPoint x="20" y="17180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-562" value="1.获取歌手列表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="17170" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-563" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;exitX=0.5;exitY=0.217;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.524;entryY=0.213;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="o-diHv8RgYlizK_aCs_f-554" target="o-diHv8RgYlizK_aCs_f-556">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="17250" as="sourcePoint" />
+            <mxPoint x="280" y="17200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-565" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;exitX=0.524;exitY=0.217;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.524;entryY=0.303;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="o-diHv8RgYlizK_aCs_f-556" target="o-diHv8RgYlizK_aCs_f-556">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="17230" as="sourcePoint" />
+            <mxPoint x="320" y="17180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="17230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-566" value="3.获取歌手列表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="238" y="17190" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-567" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;exitX=0.551;exitY=0.305;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.52;entryY=0.284;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="o-diHv8RgYlizK_aCs_f-556" target="o-diHv8RgYlizK_aCs_f-557">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="17310" as="sourcePoint" />
+            <mxPoint x="330" y="17265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-568" value="4.获取歌手列表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="275.63" y="17240" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-569" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;exitX=0.492;exitY=0.32;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.473;entryY=0.334;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="o-diHv8RgYlizK_aCs_f-557" target="o-diHv8RgYlizK_aCs_f-554">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="17370" as="sourcePoint" />
+            <mxPoint x="90" y="17320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-570" value="数据返回" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="17240" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-572" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;exitX=0.527;exitY=0.142;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.51;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="o-diHv8RgYlizK_aCs_f-554" target="o-diHv8RgYlizK_aCs_f-555">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="17180" as="sourcePoint" />
+            <mxPoint x="140" y="17130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-574" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;exitX=0.486;exitY=0.334;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="o-diHv8RgYlizK_aCs_f-554" target="o-diHv8RgYlizK_aCs_f-553">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="17310" as="sourcePoint" />
+            <mxPoint x="60" y="17260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-575" value="界面自动刷新" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-25" y="17260" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-576" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;exitX=0.471;exitY=0.342;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.471;entryY=0.438;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="o-diHv8RgYlizK_aCs_f-553" target="o-diHv8RgYlizK_aCs_f-553">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-250" y="17330" as="sourcePoint" />
+            <mxPoint x="-200" y="17280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-210" y="17320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-577" value="检索列表跳转到对应位置" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-283" y="17280" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-578" value="Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=30;" vertex="1" parent="1">
+          <mxGeometry x="419.06000000000006" y="17080" width="73.13" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-579" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;exitX=0.511;exitY=0.439;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.459;entryY=0.442;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="o-diHv8RgYlizK_aCs_f-553" target="o-diHv8RgYlizK_aCs_f-554">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="17400" as="sourcePoint" />
+            <mxPoint x="100" y="17350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-580" value="5.获取对应歌手音乐，整体步骤同获取歌手列表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-105" y="17320" width="270" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-581" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;exitX=0.524;exitY=0.556;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="o-diHv8RgYlizK_aCs_f-553" target="o-diHv8RgYlizK_aCs_f-554">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-10" y="17480" as="sourcePoint" />
+            <mxPoint x="40" y="17430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-582" value="6.对应歌手音乐全部播放" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-62" y="17400" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-583" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;exitX=0.486;exitY=0.563;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="o-diHv8RgYlizK_aCs_f-554" target="o-diHv8RgYlizK_aCs_f-578">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="17450" as="sourcePoint" />
+            <mxPoint x="340" y="17400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
