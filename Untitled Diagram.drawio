@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-01T09:29:39.283Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="MPg6hVnYpbS7m1qPiL_l" version="17.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-01T10:16:27.321Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="5dTyd0Dt1tGAGaPxia8k" version="17.2.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="2272" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3482,7 +3482,7 @@
         <mxCell id="o-diHv8RgYlizK_aCs_f-619" value="Repository" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=30;" vertex="1" parent="1">
           <mxGeometry x="321.25000000000006" y="18520" width="73.13" height="640" as="geometry" />
         </mxCell>
-        <mxCell id="o-diHv8RgYlizK_aCs_f-621" value="KuWoSDK" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=30;" vertex="1" parent="1">
+        <mxCell id="o-diHv8RgYlizK_aCs_f-621" value="KW网络接口" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=30;" vertex="1" parent="1">
           <mxGeometry x="470.00000000000006" y="18520" width="73.13" height="640" as="geometry" />
         </mxCell>
         <mxCell id="o-diHv8RgYlizK_aCs_f-622" value="LiveData" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=30;" vertex="1" parent="1">
