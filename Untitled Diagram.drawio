@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-02T03:00:44.236Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="ocnbuBPHzwV4d-LUDlGR" version="17.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-02T03:06:27.275Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="AmGRJKAoYACxdCJjDJHw" version="17.2.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="2272" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3916,8 +3916,71 @@
         <mxCell id="o-diHv8RgYlizK_aCs_f-735" value="收藏/取消收藏" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="21065" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="o-diHv8RgYlizK_aCs_f-743" value="方向盘控制-流程图" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-351" y="21280" width="120" height="60" as="geometry" />
+        <mxCell id="o-diHv8RgYlizK_aCs_f-755" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="o-diHv8RgYlizK_aCs_f-744" target="o-diHv8RgYlizK_aCs_f-745">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-756" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="o-diHv8RgYlizK_aCs_f-744" target="o-diHv8RgYlizK_aCs_f-747">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-757" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="o-diHv8RgYlizK_aCs_f-744" target="o-diHv8RgYlizK_aCs_f-749">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-758" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.565;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000000;" edge="1" parent="1" source="o-diHv8RgYlizK_aCs_f-744" target="o-diHv8RgYlizK_aCs_f-751">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-759" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="o-diHv8RgYlizK_aCs_f-744" target="o-diHv8RgYlizK_aCs_f-753">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-744" value="进入方向盘控制" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="222.5" y="21220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-760" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="o-diHv8RgYlizK_aCs_f-745" target="o-diHv8RgYlizK_aCs_f-746">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-745" value="方控暂停/播放" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-128" y="21360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-746" value="播放器暂停/播放" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-128" y="21480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-761" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="o-diHv8RgYlizK_aCs_f-747" target="o-diHv8RgYlizK_aCs_f-748">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-747" value="方控静音/解除静音" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="47.5" y="21370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-748" value="播放器静音/解除静音" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="47.5" y="21490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-762" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="o-diHv8RgYlizK_aCs_f-749" target="o-diHv8RgYlizK_aCs_f-750">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-749" value="方控上一曲/快退" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="222.5" y="21370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-750" value="播放器上一曲/快退" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="222.5" y="21490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-763" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="o-diHv8RgYlizK_aCs_f-751" target="o-diHv8RgYlizK_aCs_f-752">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-751" value="方控下一曲/快进" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="381.25" y="21370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-752" value="播放器下一曲/快进" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="381.25" y="21490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-764" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="o-diHv8RgYlizK_aCs_f-753" target="o-diHv8RgYlizK_aCs_f-754">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-753" value="方控音量控制" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="543.13" y="21370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-754" value="&lt;span&gt;播放器音量控制&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="543.13" y="21490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o-diHv8RgYlizK_aCs_f-765" value="方控-流程图" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="-312.5" y="21240" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
