@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T09:38:59.145Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="Nc8aIQqvpEZQg8aH_a4V" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-07T03:06:55.314Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="dj3LcXFmc8zxBHUVNnNy" version="17.4.6" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="2512" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2272" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -930,10 +930,10 @@
         <mxCell id="aHeLjXSiu2xdRoUsL6HB-286" value="8.播放音乐" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="aHeLjXSiu2xdRoUsL6HB-277" vertex="1">
           <mxGeometry y="300" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="T9HKHDwXn1918UpfOOwH-2" value="6.获取各分类下电台数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="aHeLjXSiu2xdRoUsL6HB-277">
+        <mxCell id="T9HKHDwXn1918UpfOOwH-2" value="6.获取各分类下电台数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="aHeLjXSiu2xdRoUsL6HB-277" vertex="1">
           <mxGeometry x="110" y="200" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="T9HKHDwXn1918UpfOOwH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.833;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="aHeLjXSiu2xdRoUsL6HB-277" source="aHeLjXSiu2xdRoUsL6HB-286" target="aHeLjXSiu2xdRoUsL6HB-286">
+        <mxCell id="T9HKHDwXn1918UpfOOwH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.833;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" parent="aHeLjXSiu2xdRoUsL6HB-277" source="aHeLjXSiu2xdRoUsL6HB-286" target="aHeLjXSiu2xdRoUsL6HB-286" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aHeLjXSiu2xdRoUsL6HB-279" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.515;exitY=0.188;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="aHeLjXSiu2xdRoUsL6HB-277" target="aHeLjXSiu2xdRoUsL6HB-260" edge="1">
@@ -3772,6 +3772,12 @@
         <mxCell id="o-diHv8RgYlizK_aCs_f-685" value="是否登录" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-103" y="20240" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="cN5JmQIYM3KFRUEO_I-1-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o-diHv8RgYlizK_aCs_f-686" target="cN5JmQIYM3KFRUEO_I-1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cN5JmQIYM3KFRUEO_I-1-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o-diHv8RgYlizK_aCs_f-686" target="cN5JmQIYM3KFRUEO_I-1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="o-diHv8RgYlizK_aCs_f-686" value="账号绑定" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-53.870000000000005" y="20340" width="120" height="60" as="geometry" />
         </mxCell>
@@ -4111,11 +4117,17 @@
         <mxCell id="o-diHv8RgYlizK_aCs_f-806" value="获取数据流程-涉及网络请求都会走" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="22420" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="T9HKHDwXn1918UpfOOwH-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.52;exitY=0.523;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aHeLjXSiu2xdRoUsL6HB-260" target="aHeLjXSiu2xdRoUsL6HB-267">
+        <mxCell id="T9HKHDwXn1918UpfOOwH-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.52;exitY=0.523;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="aHeLjXSiu2xdRoUsL6HB-260" target="aHeLjXSiu2xdRoUsL6HB-267" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="290" y="4620" as="sourcePoint" />
             <mxPoint x="340" y="4570" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="cN5JmQIYM3KFRUEO_I-1-1" value="扫码绑定" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-136.87" y="20440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cN5JmQIYM3KFRUEO_I-1-2" value="手机验证码绑定" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="33" y="20440" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
