@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-02T03:28:32.807Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="odVEMjkUo9pVlhOiQRsw" version="18.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-02T03:49:16.428Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="3YWUzmfz3gj8CYeyRdfw" version="18.1.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="2272" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -4506,8 +4506,8 @@
         <mxCell id="cN5JmQIYM3KFRUEO_I-1-143" value="&lt;font color=&quot;#ff3333&quot;&gt;程序闪退&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2886.25" y="9045" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="x-Ryg1RsGq23uqmbUjTa-1" value="错误流程总图" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-640" y="22890" width="120" height="60" as="geometry" />
+        <mxCell id="x-Ryg1RsGq23uqmbUjTa-1" value="数据交互的错误流程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="22920" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="x-Ryg1RsGq23uqmbUjTa-2" value="UI" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=30;" vertex="1" parent="1">
           <mxGeometry x="-394.99999999999994" y="22870" width="73.13" height="640" as="geometry" />
@@ -4634,6 +4634,60 @@
         </mxCell>
         <mxCell id="x-Ryg1RsGq23uqmbUjTa-32" value="界面自动显示对应UI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-320" y="23440" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="x-Ryg1RsGq23uqmbUjTa-33" value="播放过程的错误流程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="23610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x-Ryg1RsGq23uqmbUjTa-34" value="UI" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=30;" vertex="1" parent="1">
+          <mxGeometry x="-364.99999999999994" y="23610" width="73.13" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="x-Ryg1RsGq23uqmbUjTa-35" value="ViewModel" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=30;" vertex="1" parent="1">
+          <mxGeometry x="-153.56" y="23610" width="67.13" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="x-Ryg1RsGq23uqmbUjTa-37" value="Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=30;" vertex="1" parent="1">
+          <mxGeometry x="12.869999999999997" y="23610" width="67.13" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="x-Ryg1RsGq23uqmbUjTa-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.479;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.47;entryY=0.247;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="x-Ryg1RsGq23uqmbUjTa-34" target="x-Ryg1RsGq23uqmbUjTa-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-250" y="23770" as="sourcePoint" />
+            <mxPoint x="-200" y="23720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x-Ryg1RsGq23uqmbUjTa-40" value="1.播放音乐" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-245" y="23740" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="x-Ryg1RsGq23uqmbUjTa-41" value="KuWoSDK" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=30;" vertex="1" parent="1">
+          <mxGeometry x="165" y="23610" width="130" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="x-Ryg1RsGq23uqmbUjTa-46" value="播放过程中出现错误，&lt;br&gt;如无网络或数据编码错误" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="x-Ryg1RsGq23uqmbUjTa-41">
+          <mxGeometry x="-9.37" y="320" width="139.37" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x-Ryg1RsGq23uqmbUjTa-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.515;exitY=0.319;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="x-Ryg1RsGq23uqmbUjTa-35" target="x-Ryg1RsGq23uqmbUjTa-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-50" y="23830" as="sourcePoint" />
+            <mxPoint y="23780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x-Ryg1RsGq23uqmbUjTa-43" value="2.播放音乐" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-75" y="23770" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="x-Ryg1RsGq23uqmbUjTa-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.538;exitY=0.419;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.536;entryY=0.419;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="x-Ryg1RsGq23uqmbUjTa-37" target="x-Ryg1RsGq23uqmbUjTa-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="23900" as="sourcePoint" />
+            <mxPoint x="170" y="23850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x-Ryg1RsGq23uqmbUjTa-45" value="3.调用KuWu播放器进行音乐播放" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="25" y="23850" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="x-Ryg1RsGq23uqmbUjTa-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.515;exitY=0.652;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.494;entryY=0.652;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="x-Ryg1RsGq23uqmbUjTa-41" target="x-Ryg1RsGq23uqmbUjTa-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-10" y="24010" as="sourcePoint" />
+            <mxPoint x="40" y="23960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x-Ryg1RsGq23uqmbUjTa-48" value="错误信息进行传递，然后进行UI提示" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="18" y="24000" width="210" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
