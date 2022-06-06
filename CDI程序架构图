@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-06T05:40:18.452Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="gDq7H9kSgup74_6NVuBz" version="18.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-06T06:01:23.396Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="lpeg0cFt8wHK_mKBIIwG" version="18.2.0" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1662" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -189,6 +189,30 @@
             <mxPoint x="1280" y="1610" as="sourcePoint" />
             <mxPoint x="1440" y="1610" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-45" value="ApiService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1960" width="600" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-46" value="+ getFilterType(@Query(&quot;data&quot;) String data, @Query(&quot;sign&quot;) String  sign,&#xa;                                           @Query(&quot;time&quot;) String time,@Query(&quot;appId&quot;) String appID):Call&lt;ResponseBody&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;" vertex="1" parent="gnq4v4L-PDvoqoPkxIuI-45">
+          <mxGeometry y="26" width="600" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-47" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;shadow=0;" vertex="1" parent="gnq4v4L-PDvoqoPkxIuI-45">
+          <mxGeometry y="80" width="600" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-48" value="+getChildAlbumListByType(@Query(&quot;data&quot;) String data, @Query(&quot;sign&quot;) String  sign,&#xa;                                               @Query(&quot;time&quot;) String time, @Query(&quot;appId&quot;) String appID):Call&lt;ResponseBody&gt;&#xa;+getAlbumDetail(@Query(&quot;data&quot;) String data, @Query(&quot;sign&quot;) String  sign,&#xa;                                        @Query(&quot;time&quot;) String time, @Query(&quot;appId&quot;) String appID):Call&lt;ResponseBody&gt; &#xa;+ getChapterList(@Query(&quot;data&quot;) String data, @Query(&quot;sign&quot;) String  sign,&#xa;                                   @Query(&quot;time&quot;) String time, @Query(&quot;appId&quot;) String appID):Call&lt;ResponseBody&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;" vertex="1" parent="gnq4v4L-PDvoqoPkxIuI-45">
+          <mxGeometry y="88" width="600" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-50" value="EncryptedSpUtil" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="1999" width="330" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-51" value="- sp:SharedPreferences" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;" vertex="1" parent="gnq4v4L-PDvoqoPkxIuI-50">
+          <mxGeometry y="26" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-52" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;shadow=0;" vertex="1" parent="gnq4v4L-PDvoqoPkxIuI-50">
+          <mxGeometry y="52" width="330" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-53" value="+ setBoolean(String key, Boolean value):void&#xa;+ getBoolean(String key, boolean defValue):boolean&#xa;+ setInt(String key, int value):void &#xa;+ getInt(String key, int defValue):int&#xa;+ setLong(String key, long value):void&#xa;+ getLong(String key, long defValue):long&#xa;+ setString(String key, String value):void&#xa;+ getString(String key, String defValue):String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;" vertex="1" parent="gnq4v4L-PDvoqoPkxIuI-50">
+          <mxGeometry y="60" width="330" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
