@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-07T06:27:35.740Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="DSaExf48lTy8S2zN-V_9" version="18.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-10T05:37:40.184Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="vT6gdBMZSoaC4HOldGkP" version="18.2.0" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1662" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,7 +43,7 @@
         <mxCell id="CVxrnFz2xXzAddbM1XWs-10" value="&lt;p&gt;MediaRem&lt;/p&gt;&lt;p&gt;oteDataSource&lt;/p&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;align=center;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
           <mxGeometry x="560" y="710" width="90" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="CVxrnFz2xXzAddbM1XWs-11" target="CVxrnFz2xXzAddbM1XWs-9">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=1 2;" parent="1" source="CVxrnFz2xXzAddbM1XWs-11" target="CVxrnFz2xXzAddbM1XWs-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CVxrnFz2xXzAddbM1XWs-11" value="MediaLocal&lt;br&gt;DataSource" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
@@ -61,197 +61,245 @@
         <mxCell id="CVxrnFz2xXzAddbM1XWs-14" value="程序开发框架" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="170" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-1" value="LiveData" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-1" value="LiveData" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
           <mxGeometry x="310" y="350" width="95" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-2" value="Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-2" value="Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
           <mxGeometry x="600" y="80" width="120" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-3" value="MediaSession" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-3" value="MediaSession" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
           <mxGeometry x="600" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-5" value="play music" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-5" value="play music" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="730" y="290" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-6" value="DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-6" value="DB" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="285" y="630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="CVxrnFz2xXzAddbM1XWs-7" target="CVxrnFz2xXzAddbM1XWs-6">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;" parent="1" source="CVxrnFz2xXzAddbM1XWs-7" target="CVxrnFz2xXzAddbM1XWs-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="740" y="460" as="sourcePoint" />
             <mxPoint x="790" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;dashPattern=1 1;" edge="1" parent="1">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;dashPattern=1 1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="770" y="460" as="sourcePoint" />
             <mxPoint x="770" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-13" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=1 4;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CVxrnFz2xXzAddbM1XWs-10" target="CVxrnFz2xXzAddbM1XWs-9">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-13" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=1 4;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="CVxrnFz2xXzAddbM1XWs-10" target="CVxrnFz2xXzAddbM1XWs-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="750" as="sourcePoint" />
             <mxPoint x="490" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CVxrnFz2xXzAddbM1XWs-9" target="gnq4v4L-PDvoqoPkxIuI-6">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CVxrnFz2xXzAddbM1XWs-9" target="gnq4v4L-PDvoqoPkxIuI-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="270" y="810" as="sourcePoint" />
             <mxPoint x="310" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.575;exitY=0.009;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.017;entryY=0.629;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CVxrnFz2xXzAddbM1XWs-3" target="gnq4v4L-PDvoqoPkxIuI-2">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.575;exitY=0.009;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.017;entryY=0.629;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="CVxrnFz2xXzAddbM1XWs-3" target="gnq4v4L-PDvoqoPkxIuI-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="470" y="190" as="sourcePoint" />
             <mxPoint x="520" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-16" value="PlayMusic" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-16" value="PlayMusic" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="430" y="190" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-17" value="《interface》&#xa;MediaRepository" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-17" value="《interface》&#xa;MediaRepository" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="560" y="1010" width="460" height="830" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-18" value="+ getAllCategoryLocal():List&lt;BaseOnlineSection&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gnq4v4L-PDvoqoPkxIuI-17">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-18" value="+ getAllCategoryLocal():List&lt;BaseOnlineSection&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="gnq4v4L-PDvoqoPkxIuI-17" vertex="1">
           <mxGeometry y="26" width="460" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-19" value="+ setAllCategoryLocal(List&lt;baseOnlineSection&gt;):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gnq4v4L-PDvoqoPkxIuI-17">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-19" value="+ setAllCategoryLocal(List&lt;baseOnlineSection&gt;):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="gnq4v4L-PDvoqoPkxIuI-17" vertex="1">
           <mxGeometry y="52" width="460" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-20" value="+ allFavoriteMusic(Music):boolean&#xa;+removeFavoriteMusic(Music）：boolean&#xa;+removeFavoriteMusic(List&lt;Music&gt;):boolean&#xa;+addRecentlyMusic(Music):LiveData&lt;Boolean&gt;&#xa;+removeRecentlyMusic(Music):LiveData&lt;Boolean&gt;&#xa;+getSearchKeys(String):LiveData&lt;List&lt;String&gt;&gt;&#xa;+deleteAllSearchKeys(String):void&#xa;+insert(SearchKey):void&#xa;+deleteRecentlyMusic(String userName, long mediaId):void &#xa;+deleteRecentlyMusic(List&lt;Music&gt; list):boolean&#xa;+cancleFavorMusic(String userName, long mediaId):void&#xa;+getRecommendSongList(): LiveData&lt;Result&lt;List&lt;BaseQukuItem&gt;&gt;&gt;&#xa;+getDailyRecommendList():LiveData&lt;Result&lt;List&lt;Music&gt;&gt;&gt;&#xa; +getCarRadio():LiveData&lt;Result&lt;List&lt;BaseQukuItem&gt;&gt;&gt;&#xa;+getCarRadioDetail(BaseQukuItem item):LiveData&lt;Result&lt;List&lt;BaseQukuItem&gt;&gt;&gt;&#xa;+getBillboardList():LiveData&lt;Result&lt;List&lt;BillboardInfo&gt;&gt;&gt;&#xa;+getArtistByType(ArtistType type): LiveData&lt;Result&lt;List&lt;BaseOnlineSection&gt;&gt;&gt;&#xa;+getAllArtist(int page):LiveData&lt;Result&lt;List&lt;BaseQukuItem&gt;&gt;&gt;&#xa;+editUserFavorite(OperationType type, BaseQukuItem songListInfo):LiveData&lt;Result&lt;Boolean&gt;&gt;&#xa;+getSearchArtistResult(String keyword, int page):LiveData&lt;Result&lt;List&lt;ArtistInfo&gt;&gt;&gt;&#xa;+getSearchMusicResult(String keyword, int page):   LiveData&lt;Result&lt;List&lt;Music&gt;&gt;&gt;&#xa;+getSearchAlbumResult(String keyword, int page):LiveData&lt;Result&lt;List&lt;AlbumInfo&gt;&gt;&gt;&#xa;+getSearchSongListResult(String keyword, int page):  LiveData&lt;Result&lt;List&lt;SongListInfo&gt;&gt;&gt;&#xa;+fetchSearchTips(String key):LiveData&lt;Result&lt;List&lt;String&gt;&gt;&gt;&#xa;+saveCacheMusic(String playKey, ArrayList&lt;Music&gt; musicList):void&#xa;+getCacheMusic(String playKey):ArrayList&lt;Music&gt;&#xa;+fetchHotSearchKey(int page):LiveData&lt;Result&lt;List&lt;String&gt;&gt;&gt;&#xa;+getRecentlyMusicList():LiveData&lt;Result&lt;List&lt;Music&gt;&gt;&gt;&#xa;+getFavoriteMusics()：LiveData&lt;Result&lt;List&lt;Music&gt;&gt;&gt;&#xa;+fetchArtistMusic(ArtistInfo artist, int page):LiveData&lt;Result&lt;List&lt;Music&gt;&gt;&gt;&#xa;+fetchVipAlbum(int page): LiveData&lt;Result&lt;List&lt;BaseQukuItem&gt;&gt;&gt;&#xa;+fetchHotSongList(int page, int size):LiveData&lt;Result&lt;List&lt;BaseQukuItem&gt;&gt;&gt;&#xa;+getMusicList(BaseQukuItemList item, int page):LiveData&lt;Result&lt;List&lt;Music&gt;&gt;&gt;&#xa;+getMusicLyrics(Music music):LiveData&lt;Result&lt;List&lt;LyricLine&gt;&gt;&gt;&#xa;+getTopHotArtist(int page, int size):LiveData&lt;Result&lt;List&lt;BaseQukuItem&gt;&gt;&gt;&#xa;+getCategory(): LiveData&lt;Result&lt;List&lt;BaseOnlineSection&gt;&gt;&gt;&#xa;+insert(CategoryTag):void&#xa;+getSaveCategoryTags(String userName):LiveData&lt;List&lt;Long&gt;&gt;&#xa;+getCategoryDetail(BaseQukuItem item):LiveData&lt;Result&lt;List&lt;BaseQukuItem&gt;&gt;&gt;&#xa;+fetchArtistAlbum(ArtistInfo artist, int page):LiveData&lt;Result&lt;List&lt;AlbumInfo&gt;&gt;&gt;&#xa;+getArtistInfoByID(long artistId):LiveData&lt;Result&lt;ArtistInfo&gt;&gt;&#xa;+fetchVinylAlbumDetailInfo(VinylAlbumInfo vinylAlbum):LiveData&lt;Result&lt;List&lt;VinylMusicInfo&gt;&gt;&gt;&#xa;+fetchVinylAlbumList():LiveData&lt;Result&lt;List&lt;VinylAlbumInfo&gt;&gt;&gt;&#xa;+collectVinylAlbum(VinylAlbumInfo vinylAlbum):LiveData&lt;Pair&lt;QukuRequestState, VinylCollectAction&gt;&gt;&#xa;+unCollectVinylAlbum(VinylAlbumInfo vinylAlbum): LiveData&lt;Pair&lt;QukuRequestState, VinylCollectAction&gt;&gt;&#xa;+checkVinylAlbum(VinylAlbumInfo vinylAlbum):LiveData&lt;Pair&lt;QukuRequestState, VinylCollectAction&gt;&gt;&#xa;+fetchAlbumMusic(AlbumInfo item, int page):LiveData&lt;Result&lt;List&lt;Music&gt;&gt;&gt;&#xa;+getChildAlbumChapterList(RequestAlbumChapter request):LiveData&lt;Result&lt;ResponseAlbumChapter&gt;&gt;&#xa;+getChildAlbumInfo(String id):LiveData&lt;Result&lt;ResponseChildAlbumInfo&gt;&gt;&#xa;+fetchDailyPushSongs():LiveData&lt;Result&lt;List&lt;Music&gt;&gt;&gt;&#xa;+getChildAlbumListByType(ChildAlbumListUpdate data):LiveData&lt;Result&lt;ResponseChildAlbumList&gt;&gt;&#xa;+getFilterTypeData():LiveData&lt;Result&lt;ResponseFilterType&gt;&gt;&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;imageHeight=24;fillOpacity=100;shadow=0;" vertex="1" parent="gnq4v4L-PDvoqoPkxIuI-17">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-20" value="+ allFavoriteMusic(Music):boolean&#xa;+removeFavoriteMusic(Music）：boolean&#xa;+removeFavoriteMusic(List&lt;Music&gt;):boolean&#xa;+addRecentlyMusic(Music):LiveData&lt;Boolean&gt;&#xa;+removeRecentlyMusic(Music):LiveData&lt;Boolean&gt;&#xa;+getSearchKeys(String):LiveData&lt;List&lt;String&gt;&gt;&#xa;+deleteAllSearchKeys(String):void&#xa;+insert(SearchKey):void&#xa;+deleteRecentlyMusic(String userName, long mediaId):void &#xa;+deleteRecentlyMusic(List&lt;Music&gt; list):boolean&#xa;+cancleFavorMusic(String userName, long mediaId):void&#xa;+getRecommendSongList(): LiveData&lt;Result&lt;List&lt;BaseQukuItem&gt;&gt;&gt;&#xa;+getDailyRecommendList():LiveData&lt;Result&lt;List&lt;Music&gt;&gt;&gt;&#xa; +getCarRadio():LiveData&lt;Result&lt;List&lt;BaseQukuItem&gt;&gt;&gt;&#xa;+getCarRadioDetail(BaseQukuItem item):LiveData&lt;Result&lt;List&lt;BaseQukuItem&gt;&gt;&gt;&#xa;+getBillboardList():LiveData&lt;Result&lt;List&lt;BillboardInfo&gt;&gt;&gt;&#xa;+getArtistByType(ArtistType type): LiveData&lt;Result&lt;List&lt;BaseOnlineSection&gt;&gt;&gt;&#xa;+getAllArtist(int page):LiveData&lt;Result&lt;List&lt;BaseQukuItem&gt;&gt;&gt;&#xa;+editUserFavorite(OperationType type, BaseQukuItem songListInfo):LiveData&lt;Result&lt;Boolean&gt;&gt;&#xa;+getSearchArtistResult(String keyword, int page):LiveData&lt;Result&lt;List&lt;ArtistInfo&gt;&gt;&gt;&#xa;+getSearchMusicResult(String keyword, int page):   LiveData&lt;Result&lt;List&lt;Music&gt;&gt;&gt;&#xa;+getSearchAlbumResult(String keyword, int page):LiveData&lt;Result&lt;List&lt;AlbumInfo&gt;&gt;&gt;&#xa;+getSearchSongListResult(String keyword, int page):  LiveData&lt;Result&lt;List&lt;SongListInfo&gt;&gt;&gt;&#xa;+fetchSearchTips(String key):LiveData&lt;Result&lt;List&lt;String&gt;&gt;&gt;&#xa;+saveCacheMusic(String playKey, ArrayList&lt;Music&gt; musicList):void&#xa;+getCacheMusic(String playKey):ArrayList&lt;Music&gt;&#xa;+fetchHotSearchKey(int page):LiveData&lt;Result&lt;List&lt;String&gt;&gt;&gt;&#xa;+getRecentlyMusicList():LiveData&lt;Result&lt;List&lt;Music&gt;&gt;&gt;&#xa;+getFavoriteMusics()：LiveData&lt;Result&lt;List&lt;Music&gt;&gt;&gt;&#xa;+fetchArtistMusic(ArtistInfo artist, int page):LiveData&lt;Result&lt;List&lt;Music&gt;&gt;&gt;&#xa;+fetchVipAlbum(int page): LiveData&lt;Result&lt;List&lt;BaseQukuItem&gt;&gt;&gt;&#xa;+fetchHotSongList(int page, int size):LiveData&lt;Result&lt;List&lt;BaseQukuItem&gt;&gt;&gt;&#xa;+getMusicList(BaseQukuItemList item, int page):LiveData&lt;Result&lt;List&lt;Music&gt;&gt;&gt;&#xa;+getMusicLyrics(Music music):LiveData&lt;Result&lt;List&lt;LyricLine&gt;&gt;&gt;&#xa;+getTopHotArtist(int page, int size):LiveData&lt;Result&lt;List&lt;BaseQukuItem&gt;&gt;&gt;&#xa;+getCategory(): LiveData&lt;Result&lt;List&lt;BaseOnlineSection&gt;&gt;&gt;&#xa;+insert(CategoryTag):void&#xa;+getSaveCategoryTags(String userName):LiveData&lt;List&lt;Long&gt;&gt;&#xa;+getCategoryDetail(BaseQukuItem item):LiveData&lt;Result&lt;List&lt;BaseQukuItem&gt;&gt;&gt;&#xa;+fetchArtistAlbum(ArtistInfo artist, int page):LiveData&lt;Result&lt;List&lt;AlbumInfo&gt;&gt;&gt;&#xa;+getArtistInfoByID(long artistId):LiveData&lt;Result&lt;ArtistInfo&gt;&gt;&#xa;+fetchVinylAlbumDetailInfo(VinylAlbumInfo vinylAlbum):LiveData&lt;Result&lt;List&lt;VinylMusicInfo&gt;&gt;&gt;&#xa;+fetchVinylAlbumList():LiveData&lt;Result&lt;List&lt;VinylAlbumInfo&gt;&gt;&gt;&#xa;+collectVinylAlbum(VinylAlbumInfo vinylAlbum):LiveData&lt;Pair&lt;QukuRequestState, VinylCollectAction&gt;&gt;&#xa;+unCollectVinylAlbum(VinylAlbumInfo vinylAlbum): LiveData&lt;Pair&lt;QukuRequestState, VinylCollectAction&gt;&gt;&#xa;+checkVinylAlbum(VinylAlbumInfo vinylAlbum):LiveData&lt;Pair&lt;QukuRequestState, VinylCollectAction&gt;&gt;&#xa;+fetchAlbumMusic(AlbumInfo item, int page):LiveData&lt;Result&lt;List&lt;Music&gt;&gt;&gt;&#xa;+getChildAlbumChapterList(RequestAlbumChapter request):LiveData&lt;Result&lt;ResponseAlbumChapter&gt;&gt;&#xa;+getChildAlbumInfo(String id):LiveData&lt;Result&lt;ResponseChildAlbumInfo&gt;&gt;&#xa;+fetchDailyPushSongs():LiveData&lt;Result&lt;List&lt;Music&gt;&gt;&gt;&#xa;+getChildAlbumListByType(ChildAlbumListUpdate data):LiveData&lt;Result&lt;ResponseChildAlbumList&gt;&gt;&#xa;+getFilterTypeData():LiveData&lt;Result&lt;ResponseFilterType&gt;&gt;&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;imageHeight=24;fillOpacity=100;shadow=0;" parent="gnq4v4L-PDvoqoPkxIuI-17" vertex="1">
           <mxGeometry y="78" width="460" height="752" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-23" value="Repository" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;" vertex="1" parent="1">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-23" value="Repository" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="876" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-24" value="DefaultMediaRepository" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;" vertex="1" parent="1">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-24" value="DefaultMediaRepository" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="1070" y="1120" width="290" height="96" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-25" value="- mMusicRemoteDataSource: MediaDataSource" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;" vertex="1" parent="gnq4v4L-PDvoqoPkxIuI-24">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-25" value="- mMusicRemoteDataSource: MediaDataSource" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;" parent="gnq4v4L-PDvoqoPkxIuI-24" vertex="1">
           <mxGeometry y="26" width="290" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-26" value="- mMusicLocalDataSource: MediaDataSource" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;" vertex="1" parent="gnq4v4L-PDvoqoPkxIuI-24">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-26" value="- mMusicLocalDataSource: MediaDataSource" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;" parent="gnq4v4L-PDvoqoPkxIuI-24" vertex="1">
           <mxGeometry y="60" width="290" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-28" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=1.007;entryY=0.116;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.01;exitY=-0.028;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gnq4v4L-PDvoqoPkxIuI-26" target="gnq4v4L-PDvoqoPkxIuI-20">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-28" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=1.007;entryY=0.116;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.01;exitY=-0.028;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="gnq4v4L-PDvoqoPkxIuI-26" target="gnq4v4L-PDvoqoPkxIuI-20" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1070" y="1050" as="sourcePoint" />
             <mxPoint x="1230" y="1050" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-29" value="《interface》&#xa;MediaDataSource" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;" vertex="1" parent="1">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-29" value="《interface》&#xa;MediaDataSource" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="1430" y="1015" width="590" height="820" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-31" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;shadow=0;" vertex="1" parent="gnq4v4L-PDvoqoPkxIuI-29">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-31" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;shadow=0;" parent="gnq4v4L-PDvoqoPkxIuI-29" vertex="1">
           <mxGeometry y="26" width="590" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-32" value="+ getAllCategoryLocal():List&lt;BaseOnlineSection&gt;&#xa;+ setAllCategoryLocal(List&lt;baseOnlineSection&gt;):void&#xa;+ allFavoriteMusic(Music):boolean&#xa;+removeFavoriteMusic(Music）：boolean&#xa;+removeFavoriteMusic(List&lt;Music&gt;):boolean&#xa;+addRecentlyMusic(Music):LiveData&lt;Boolean&gt;&#xa;+removeRecentlyMusic(Music):LiveData&lt;Boolean&gt;&#xa;+getSearchKeys(String):LiveData&lt;List&lt;String&gt;&gt;&#xa;+deleteAllSearchKeys(String):void&#xa;+insert(SearchKey):void&#xa;+deleteRecentlyMusic(String userName, long mediaId):void &#xa;+deleteRecentlyMusic(List&lt;Music&gt; list):boolean&#xa;+cancleFavorMusic(String userName, long mediaId):void&#xa;+getRecommendSongList(): LiveData&lt;Result&lt;List&lt;BaseQukuItem&gt;&gt;&gt;&#xa;+getDailyRecommendList():LiveData&lt;Result&lt;List&lt;Music&gt;&gt;&gt;&#xa; +getCarRadio():LiveData&lt;Result&lt;List&lt;BaseQukuItem&gt;&gt;&gt;&#xa;+getCarRadioDetail(BaseQukuItem item):LiveData&lt;Result&lt;List&lt;BaseQukuItem&gt;&gt;&gt;&#xa;+getBillboardList():LiveData&lt;Result&lt;List&lt;BillboardInfo&gt;&gt;&gt;&#xa;+getArtistByType(ArtistType type): LiveData&lt;Result&lt;List&lt;BaseOnlineSection&gt;&gt;&gt;&#xa;+getAllArtist(int page):LiveData&lt;Result&lt;List&lt;BaseQukuItem&gt;&gt;&gt;&#xa;+editUserFavorite(OperationType type, BaseQukuItem songListInfo):LiveData&lt;Result&lt;Boolean&gt;&gt;&#xa;+getSearchArtistResult(String keyword, int page):LiveData&lt;Result&lt;List&lt;ArtistInfo&gt;&gt;&gt;&#xa;+getSearchMusicResult(String keyword, int page):   LiveData&lt;Result&lt;List&lt;Music&gt;&gt;&gt;&#xa;+getSearchAlbumResult(String keyword, int page):LiveData&lt;Result&lt;List&lt;AlbumInfo&gt;&gt;&gt;&#xa;+getSearchSongListResult(String keyword, int page):  LiveData&lt;Result&lt;List&lt;SongListInfo&gt;&gt;&gt;&#xa;+fetchSearchTips(String key):LiveData&lt;Result&lt;List&lt;String&gt;&gt;&gt;&#xa;+saveCacheMusic(String playKey, ArrayList&lt;Music&gt; musicList):void&#xa;+getCacheMusic(String playKey):ArrayList&lt;Music&gt;&#xa;+fetchHotSearchKey(int page):LiveData&lt;Result&lt;List&lt;String&gt;&gt;&gt;&#xa;+getRecentlyMusicList():LiveData&lt;Result&lt;List&lt;Music&gt;&gt;&gt;&#xa;+getFavoriteMusics()：LiveData&lt;Result&lt;List&lt;Music&gt;&gt;&gt;&#xa;+fetchArtistMusic(ArtistInfo artist, int page):LiveData&lt;Result&lt;List&lt;Music&gt;&gt;&gt;&#xa;+fetchVipAlbum(int page): LiveData&lt;Result&lt;List&lt;BaseQukuItem&gt;&gt;&gt;&#xa;+fetchHotSongList(int page, int size):LiveData&lt;Result&lt;List&lt;BaseQukuItem&gt;&gt;&gt;&#xa;+getMusicList(BaseQukuItemList item, int page):LiveData&lt;Result&lt;List&lt;Music&gt;&gt;&gt;&#xa;+getMusicLyrics(Music music):LiveData&lt;Result&lt;List&lt;LyricLine&gt;&gt;&gt;&#xa;+getTopHotArtist(int page, int size):LiveData&lt;Result&lt;List&lt;BaseQukuItem&gt;&gt;&gt;&#xa;+getCategory(): LiveData&lt;Result&lt;List&lt;BaseOnlineSection&gt;&gt;&gt;&#xa;+insert(CategoryTag):void&#xa;+getSaveCategoryTags(String userName):LiveData&lt;List&lt;Long&gt;&gt;&#xa;+getCategoryDetail(BaseQukuItem item):LiveData&lt;Result&lt;List&lt;BaseQukuItem&gt;&gt;&gt;&#xa;+fetchArtistAlbum(ArtistInfo artist, int page):LiveData&lt;Result&lt;List&lt;AlbumInfo&gt;&gt;&gt;&#xa;+getArtistInfoByID(long artistId):LiveData&lt;Result&lt;ArtistInfo&gt;&gt;&#xa;+fetchVinylAlbumDetailInfo(VinylAlbumInfo vinylAlbum):LiveData&lt;Result&lt;List&lt;VinylMusicInfo&gt;&gt;&gt;&#xa;+fetchVinylAlbumList():LiveData&lt;Result&lt;List&lt;VinylAlbumInfo&gt;&gt;&gt;&#xa;+collectVinylAlbum(VinylAlbumInfo vinylAlbum):LiveData&lt;Pair&lt;QukuRequestState, VinylCollectAction&gt;&gt;&#xa;+unCollectVinylAlbum(VinylAlbumInfo vinylAlbum): LiveData&lt;Pair&lt;QukuRequestState, VinylCollectAction&gt;&gt;&#xa;+checkVinylAlbum(VinylAlbumInfo vinylAlbum):LiveData&lt;Pair&lt;QukuRequestState, VinylCollectAction&gt;&gt;&#xa;+fetchAlbumMusic(AlbumInfo item, int page):LiveData&lt;Result&lt;List&lt;Music&gt;&gt;&gt;&#xa;+getChildAlbumChapterList(RequestAlbumChapter request):LiveData&lt;Result&lt;ResponseAlbumChapter&gt;&gt;&#xa;+getChildAlbumInfo(String id):LiveData&lt;Result&lt;ResponseChildAlbumInfo&gt;&gt;&#xa;+fetchDailyPushSongs():LiveData&lt;Result&lt;List&lt;Music&gt;&gt;&gt;&#xa;+getChildAlbumListByType(ChildAlbumListUpdate data):LiveData&lt;Result&lt;ResponseChildAlbumList&gt;&gt;&#xa;+getFilterTypeData():LiveData&lt;Result&lt;ResponseFilterType&gt;&gt;&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;" vertex="1" parent="gnq4v4L-PDvoqoPkxIuI-29">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-32" value="+ getAllCategoryLocal():List&lt;BaseOnlineSection&gt;&#xa;+ setAllCategoryLocal(List&lt;baseOnlineSection&gt;):void&#xa;+ allFavoriteMusic(Music):boolean&#xa;+removeFavoriteMusic(Music）：boolean&#xa;+removeFavoriteMusic(List&lt;Music&gt;):boolean&#xa;+addRecentlyMusic(Music):LiveData&lt;Boolean&gt;&#xa;+removeRecentlyMusic(Music):LiveData&lt;Boolean&gt;&#xa;+getSearchKeys(String):LiveData&lt;List&lt;String&gt;&gt;&#xa;+deleteAllSearchKeys(String):void&#xa;+insert(SearchKey):void&#xa;+deleteRecentlyMusic(String userName, long mediaId):void &#xa;+deleteRecentlyMusic(List&lt;Music&gt; list):boolean&#xa;+cancleFavorMusic(String userName, long mediaId):void&#xa;+getRecommendSongList(): LiveData&lt;Result&lt;List&lt;BaseQukuItem&gt;&gt;&gt;&#xa;+getDailyRecommendList():LiveData&lt;Result&lt;List&lt;Music&gt;&gt;&gt;&#xa; +getCarRadio():LiveData&lt;Result&lt;List&lt;BaseQukuItem&gt;&gt;&gt;&#xa;+getCarRadioDetail(BaseQukuItem item):LiveData&lt;Result&lt;List&lt;BaseQukuItem&gt;&gt;&gt;&#xa;+getBillboardList():LiveData&lt;Result&lt;List&lt;BillboardInfo&gt;&gt;&gt;&#xa;+getArtistByType(ArtistType type): LiveData&lt;Result&lt;List&lt;BaseOnlineSection&gt;&gt;&gt;&#xa;+getAllArtist(int page):LiveData&lt;Result&lt;List&lt;BaseQukuItem&gt;&gt;&gt;&#xa;+editUserFavorite(OperationType type, BaseQukuItem songListInfo):LiveData&lt;Result&lt;Boolean&gt;&gt;&#xa;+getSearchArtistResult(String keyword, int page):LiveData&lt;Result&lt;List&lt;ArtistInfo&gt;&gt;&gt;&#xa;+getSearchMusicResult(String keyword, int page):   LiveData&lt;Result&lt;List&lt;Music&gt;&gt;&gt;&#xa;+getSearchAlbumResult(String keyword, int page):LiveData&lt;Result&lt;List&lt;AlbumInfo&gt;&gt;&gt;&#xa;+getSearchSongListResult(String keyword, int page):  LiveData&lt;Result&lt;List&lt;SongListInfo&gt;&gt;&gt;&#xa;+fetchSearchTips(String key):LiveData&lt;Result&lt;List&lt;String&gt;&gt;&gt;&#xa;+saveCacheMusic(String playKey, ArrayList&lt;Music&gt; musicList):void&#xa;+getCacheMusic(String playKey):ArrayList&lt;Music&gt;&#xa;+fetchHotSearchKey(int page):LiveData&lt;Result&lt;List&lt;String&gt;&gt;&gt;&#xa;+getRecentlyMusicList():LiveData&lt;Result&lt;List&lt;Music&gt;&gt;&gt;&#xa;+getFavoriteMusics()：LiveData&lt;Result&lt;List&lt;Music&gt;&gt;&gt;&#xa;+fetchArtistMusic(ArtistInfo artist, int page):LiveData&lt;Result&lt;List&lt;Music&gt;&gt;&gt;&#xa;+fetchVipAlbum(int page): LiveData&lt;Result&lt;List&lt;BaseQukuItem&gt;&gt;&gt;&#xa;+fetchHotSongList(int page, int size):LiveData&lt;Result&lt;List&lt;BaseQukuItem&gt;&gt;&gt;&#xa;+getMusicList(BaseQukuItemList item, int page):LiveData&lt;Result&lt;List&lt;Music&gt;&gt;&gt;&#xa;+getMusicLyrics(Music music):LiveData&lt;Result&lt;List&lt;LyricLine&gt;&gt;&gt;&#xa;+getTopHotArtist(int page, int size):LiveData&lt;Result&lt;List&lt;BaseQukuItem&gt;&gt;&gt;&#xa;+getCategory(): LiveData&lt;Result&lt;List&lt;BaseOnlineSection&gt;&gt;&gt;&#xa;+insert(CategoryTag):void&#xa;+getSaveCategoryTags(String userName):LiveData&lt;List&lt;Long&gt;&gt;&#xa;+getCategoryDetail(BaseQukuItem item):LiveData&lt;Result&lt;List&lt;BaseQukuItem&gt;&gt;&gt;&#xa;+fetchArtistAlbum(ArtistInfo artist, int page):LiveData&lt;Result&lt;List&lt;AlbumInfo&gt;&gt;&gt;&#xa;+getArtistInfoByID(long artistId):LiveData&lt;Result&lt;ArtistInfo&gt;&gt;&#xa;+fetchVinylAlbumDetailInfo(VinylAlbumInfo vinylAlbum):LiveData&lt;Result&lt;List&lt;VinylMusicInfo&gt;&gt;&gt;&#xa;+fetchVinylAlbumList():LiveData&lt;Result&lt;List&lt;VinylAlbumInfo&gt;&gt;&gt;&#xa;+collectVinylAlbum(VinylAlbumInfo vinylAlbum):LiveData&lt;Pair&lt;QukuRequestState, VinylCollectAction&gt;&gt;&#xa;+unCollectVinylAlbum(VinylAlbumInfo vinylAlbum): LiveData&lt;Pair&lt;QukuRequestState, VinylCollectAction&gt;&gt;&#xa;+checkVinylAlbum(VinylAlbumInfo vinylAlbum):LiveData&lt;Pair&lt;QukuRequestState, VinylCollectAction&gt;&gt;&#xa;+fetchAlbumMusic(AlbumInfo item, int page):LiveData&lt;Result&lt;List&lt;Music&gt;&gt;&gt;&#xa;+getChildAlbumChapterList(RequestAlbumChapter request):LiveData&lt;Result&lt;ResponseAlbumChapter&gt;&gt;&#xa;+getChildAlbumInfo(String id):LiveData&lt;Result&lt;ResponseChildAlbumInfo&gt;&gt;&#xa;+fetchDailyPushSongs():LiveData&lt;Result&lt;List&lt;Music&gt;&gt;&gt;&#xa;+getChildAlbumListByType(ChildAlbumListUpdate data):LiveData&lt;Result&lt;ResponseChildAlbumList&gt;&gt;&#xa;+getFilterTypeData():LiveData&lt;Result&lt;ResponseFilterType&gt;&gt;&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;" parent="gnq4v4L-PDvoqoPkxIuI-29" vertex="1">
           <mxGeometry y="34" width="590" height="786" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-33" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1.003;exitY=-0.139;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.002;entryY=0.164;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gnq4v4L-PDvoqoPkxIuI-26" target="gnq4v4L-PDvoqoPkxIuI-32">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-33" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1.003;exitY=-0.139;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.002;entryY=0.164;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="gnq4v4L-PDvoqoPkxIuI-26" target="gnq4v4L-PDvoqoPkxIuI-32" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1450" y="1180" as="sourcePoint" />
             <mxPoint x="1610" y="1180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-34" value="MediaLocalDataSource" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;" vertex="1" parent="1">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-34" value="MediaLocalDataSource" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="1100" y="1400" width="210" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-35" value="-  searchKeyDao: SearchKeyDao" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;" vertex="1" parent="gnq4v4L-PDvoqoPkxIuI-34">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-35" value="-  searchKeyDao: SearchKeyDao" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;" parent="gnq4v4L-PDvoqoPkxIuI-34" vertex="1">
           <mxGeometry y="26" width="210" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-36" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;shadow=0;" vertex="1" parent="gnq4v4L-PDvoqoPkxIuI-34">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-36" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;shadow=0;" parent="gnq4v4L-PDvoqoPkxIuI-34" vertex="1">
           <mxGeometry y="52" width="210" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-37" value="- categoryTagDao:CategoryTagDao" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;" vertex="1" parent="gnq4v4L-PDvoqoPkxIuI-34">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-37" value="- categoryTagDao:CategoryTagDao" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;" parent="gnq4v4L-PDvoqoPkxIuI-34" vertex="1">
           <mxGeometry y="60" width="210" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-38" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gnq4v4L-PDvoqoPkxIuI-35" target="gnq4v4L-PDvoqoPkxIuI-32">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-38" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gnq4v4L-PDvoqoPkxIuI-35" target="gnq4v4L-PDvoqoPkxIuI-32" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1270" y="1440" as="sourcePoint" />
             <mxPoint x="1430" y="1440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-39" value="MediaRemoteDataSource" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;" vertex="1" parent="1">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-39" value="MediaRemoteDataSource" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="1115" y="1570" width="160" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-40" value="- spUtil:EncryptedSpUtil" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;" vertex="1" parent="gnq4v4L-PDvoqoPkxIuI-39">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-40" value="- spUtil:EncryptedSpUtil" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;" parent="gnq4v4L-PDvoqoPkxIuI-39" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-41" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;shadow=0;" vertex="1" parent="gnq4v4L-PDvoqoPkxIuI-39">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-41" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;shadow=0;" parent="gnq4v4L-PDvoqoPkxIuI-39" vertex="1">
           <mxGeometry y="52" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-42" value="+ apiService: ApiService" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;" vertex="1" parent="gnq4v4L-PDvoqoPkxIuI-39">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-42" value="+ apiService: ApiService" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;" parent="gnq4v4L-PDvoqoPkxIuI-39" vertex="1">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-43" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.721;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gnq4v4L-PDvoqoPkxIuI-40" target="gnq4v4L-PDvoqoPkxIuI-32">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-43" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.721;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="gnq4v4L-PDvoqoPkxIuI-40" target="gnq4v4L-PDvoqoPkxIuI-32" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1280" y="1610" as="sourcePoint" />
             <mxPoint x="1440" y="1610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-45" value="ApiService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="600" y="1960" width="600" height="200" as="geometry" />
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-45" value="ApiService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="955" y="2770" width="600" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-46" value="+ getFilterType(@Query(&quot;data&quot;) String data, @Query(&quot;sign&quot;) String  sign,&#xa;                                           @Query(&quot;time&quot;) String time,@Query(&quot;appId&quot;) String appID):Call&lt;ResponseBody&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;" vertex="1" parent="gnq4v4L-PDvoqoPkxIuI-45">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-46" value="+ getFilterType(@Query(&quot;data&quot;) String data, @Query(&quot;sign&quot;) String  sign,&#xa;                                           @Query(&quot;time&quot;) String time,@Query(&quot;appId&quot;) String appID):Call&lt;ResponseBody&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;" parent="gnq4v4L-PDvoqoPkxIuI-45" vertex="1">
           <mxGeometry y="26" width="600" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-47" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;shadow=0;" vertex="1" parent="gnq4v4L-PDvoqoPkxIuI-45">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-47" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;shadow=0;" parent="gnq4v4L-PDvoqoPkxIuI-45" vertex="1">
           <mxGeometry y="80" width="600" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-48" value="+getChildAlbumListByType(@Query(&quot;data&quot;) String data, @Query(&quot;sign&quot;) String  sign,&#xa;                                               @Query(&quot;time&quot;) String time, @Query(&quot;appId&quot;) String appID):Call&lt;ResponseBody&gt;&#xa;+getAlbumDetail(@Query(&quot;data&quot;) String data, @Query(&quot;sign&quot;) String  sign,&#xa;                                        @Query(&quot;time&quot;) String time, @Query(&quot;appId&quot;) String appID):Call&lt;ResponseBody&gt; &#xa;+ getChapterList(@Query(&quot;data&quot;) String data, @Query(&quot;sign&quot;) String  sign,&#xa;                                   @Query(&quot;time&quot;) String time, @Query(&quot;appId&quot;) String appID):Call&lt;ResponseBody&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;" vertex="1" parent="gnq4v4L-PDvoqoPkxIuI-45">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-48" value="+getChildAlbumListByType(@Query(&quot;data&quot;) String data, @Query(&quot;sign&quot;) String  sign,&#xa;                                               @Query(&quot;time&quot;) String time, @Query(&quot;appId&quot;) String appID):Call&lt;ResponseBody&gt;&#xa;+getAlbumDetail(@Query(&quot;data&quot;) String data, @Query(&quot;sign&quot;) String  sign,&#xa;                                        @Query(&quot;time&quot;) String time, @Query(&quot;appId&quot;) String appID):Call&lt;ResponseBody&gt; &#xa;+ getChapterList(@Query(&quot;data&quot;) String data, @Query(&quot;sign&quot;) String  sign,&#xa;                                   @Query(&quot;time&quot;) String time, @Query(&quot;appId&quot;) String appID):Call&lt;ResponseBody&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;" parent="gnq4v4L-PDvoqoPkxIuI-45" vertex="1">
           <mxGeometry y="88" width="600" height="112" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-50" value="EncryptedSpUtil" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;" vertex="1" parent="1">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-50" value="EncryptedSpUtil" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="1440" y="1999" width="330" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-51" value="- sp:SharedPreferences" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;" vertex="1" parent="gnq4v4L-PDvoqoPkxIuI-50">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-51" value="- sp:SharedPreferences" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;" parent="gnq4v4L-PDvoqoPkxIuI-50" vertex="1">
           <mxGeometry y="26" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-52" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;shadow=0;" vertex="1" parent="gnq4v4L-PDvoqoPkxIuI-50">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-52" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;shadow=0;" parent="gnq4v4L-PDvoqoPkxIuI-50" vertex="1">
           <mxGeometry y="52" width="330" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-53" value="+ setBoolean(String key, Boolean value):void&#xa;+ getBoolean(String key, boolean defValue):boolean&#xa;+ setInt(String key, int value):void &#xa;+ getInt(String key, int defValue):int&#xa;+ setLong(String key, long value):void&#xa;+ getLong(String key, long defValue):long&#xa;+ setString(String key, String value):void&#xa;+ getString(String key, String defValue):String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;" vertex="1" parent="gnq4v4L-PDvoqoPkxIuI-50">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-53" value="+ setBoolean(String key, Boolean value):void&#xa;+ getBoolean(String key, boolean defValue):boolean&#xa;+ setInt(String key, int value):void &#xa;+ getInt(String key, int defValue):int&#xa;+ setLong(String key, long value):void&#xa;+ getLong(String key, long defValue):long&#xa;+ setString(String key, String value):void&#xa;+ getString(String key, String defValue):String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;" parent="gnq4v4L-PDvoqoPkxIuI-50" vertex="1">
           <mxGeometry y="60" width="330" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-54" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-54" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="610" y="2250" width="720" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-55" value="app" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-55" value="app" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="620" y="2250" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-56" value="UI" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-56" value="UI" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="650" y="2320" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-57" value="ViewModel" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-57" value="ViewModel" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="770" y="2320" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-58" value="Service" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-58" value="Service" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="885" y="2320" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-59" value="repository" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-59" value="repository" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="1000" y="2320" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-60" value="widght" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-60" value="widght" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="660" y="2410" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-61" value="util" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-61" value="util" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="790" y="2410" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-62" value="data" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-62" value="data" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="900" y="2410" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-63" value="di" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-63" value="di" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="1020" y="2410" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-64" value="adapter" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-64" value="adapter" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="1150" y="2410" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-65" value="db" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-65" value="db" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="1150" y="2320" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gnq4v4L-PDvoqoPkxIuI-66" value="bigdata" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="gnq4v4L-PDvoqoPkxIuI-66" value="bigdata" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1400" y="2250" width="170" height="215" as="geometry" />
+        </mxCell>
+        <mxCell id="BOLauMaQ-h12HMGxbsfU-1" value="MeidaChildModuleDataSource" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="2770" width="650" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="BOLauMaQ-h12HMGxbsfU-2" value="- spUtil: EncryptedSpUtil&#xa;- api ApiService" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BOLauMaQ-h12HMGxbsfU-1">
+          <mxGeometry y="26" width="650" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="BOLauMaQ-h12HMGxbsfU-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="BOLauMaQ-h12HMGxbsfU-1">
+          <mxGeometry y="90" width="650" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="BOLauMaQ-h12HMGxbsfU-4" value="+getChildAlbumChapterList(RequestAlbumChapter request):LiveData&lt;Result&lt;ResponseAlbumChapter&gt;&gt;&#xa;+getChildAlbumInfo(String id):LiveData&lt;Result&lt;ResponseChildAlbumInfo&gt;&gt;&#xa;+getChildAlbumListByType(ChildAlbumListUpdate data):LiveData&lt;Result&lt;ResponseChildAlbumList&gt;&gt;&#xa;+getFilterTypeData()	LiveData&lt;Result&lt;ResponseFilterType&gt;&gt;&#xa;-formatEncryptToData(String encrypt, Class&lt;T&gt; classOfT):T&#xa;-getDeviceId():String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BOLauMaQ-h12HMGxbsfU-1">
+          <mxGeometry y="98" width="650" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="BOLauMaQ-h12HMGxbsfU-5" value="MediaChildModuleDataSource" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="1770" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BOLauMaQ-h12HMGxbsfU-6" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.456;exitY=1.154;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gnq4v4L-PDvoqoPkxIuI-42" target="BOLauMaQ-h12HMGxbsfU-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1150" y="1710" as="sourcePoint" />
+            <mxPoint x="1310" y="1710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BOLauMaQ-h12HMGxbsfU-7" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.999;exitY=0.18;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.001;entryY=0.345;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BOLauMaQ-h12HMGxbsfU-4" target="gnq4v4L-PDvoqoPkxIuI-48">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="790" y="2960" as="sourcePoint" />
+            <mxPoint x="950" y="2960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BOLauMaQ-h12HMGxbsfU-8" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;EncryptedSpUtil&lt;/span&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="3090" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BOLauMaQ-h12HMGxbsfU-9" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.248;exitY=1.026;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BOLauMaQ-h12HMGxbsfU-4" target="BOLauMaQ-h12HMGxbsfU-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="240" y="3090" as="sourcePoint" />
+            <mxPoint x="400" y="3090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BOLauMaQ-h12HMGxbsfU-10" value="AESUtil" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="3060" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="BOLauMaQ-h12HMGxbsfU-11" value="- DEFAULT_CHARSET:String &#xa;- KEY_AES:String " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BOLauMaQ-h12HMGxbsfU-10">
+          <mxGeometry y="26" width="200" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="BOLauMaQ-h12HMGxbsfU-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="BOLauMaQ-h12HMGxbsfU-10">
+          <mxGeometry y="80" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="BOLauMaQ-h12HMGxbsfU-13" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BOLauMaQ-h12HMGxbsfU-10">
+          <mxGeometry y="88" width="200" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
