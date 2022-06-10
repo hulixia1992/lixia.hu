@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-10T11:16:44.955Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="SIRpfO39abXZ5f2AF5zU" version="18.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-10T11:38:48.139Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="kIPvmveFo91J2JwgJMQH" version="18.2.0" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="2512" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -447,16 +447,67 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BOLauMaQ-h12HMGxbsfU-69" value="KwMediaSessionConnector" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="4570" width="250" height="234" as="geometry" />
+          <mxGeometry x="1220" y="4560" width="320" height="450" as="geometry" />
         </mxCell>
         <mxCell id="BOLauMaQ-h12HMGxbsfU-70" value="-context:Context &#xa;-encryptedSpUtil:EncryptedSpUtil &#xa; -repository:MediaRepository &#xa; -mediaSession:MediaSessionCompat &#xa;-mAudioManager:AudioManager &#xa;-mFocusRequest:AudioFocusRequest &#xa; -mAudioAttributes:AudioAttributes &#xa; -mAudioFocusChangeListener:AudioManager.OnAudioFocusChangeListener&#xa;-iPlayControlObserver:IPlayControlObserver &#xa;-iListObserver:IListObserver &#xa; -userInfoMgrObserver:IUserInfoMgrObserver &#xa;-vipMgrObserver:IVipMgrObserver " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BOLauMaQ-h12HMGxbsfU-69">
-          <mxGeometry y="26" width="250" height="174" as="geometry" />
+          <mxGeometry y="26" width="320" height="174" as="geometry" />
         </mxCell>
         <mxCell id="BOLauMaQ-h12HMGxbsfU-71" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="BOLauMaQ-h12HMGxbsfU-69">
-          <mxGeometry y="200" width="250" height="8" as="geometry" />
+          <mxGeometry y="200" width="320" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="BOLauMaQ-h12HMGxbsfU-72" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BOLauMaQ-h12HMGxbsfU-69">
-          <mxGeometry y="208" width="250" height="26" as="geometry" />
+        <mxCell id="BOLauMaQ-h12HMGxbsfU-72" value="-registerPlayListeners():void&#xa;-unregisterPlayListeners ():void&#xa;-resetChargeMusicsFlag():void&#xa;-showVipSongDialog(Music music):void&#xa;-getVipState(List&lt;VipUserInfo&gt; vipUserInfos):boolean&#xa;-getCover(Music music):void&#xa;-sendMetadata(Music music):void&#xa;-sendPlayback(int state):void&#xa;-sendQueue():void&#xa;-initAudioFocusListener():void&#xa;-abandonAudioFocus():void&#xa;-setMute(boolean mute):void&#xa;-initErrorMsg():void&#xa;-onPlayError(PlayDelegate.ErrorCode errorCode):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BOLauMaQ-h12HMGxbsfU-69">
+          <mxGeometry y="208" width="320" height="242" as="geometry" />
+        </mxCell>
+        <mxCell id="BOLauMaQ-h12HMGxbsfU-74" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1.005;exitY=0.345;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.003;entryY=0.092;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BOLauMaQ-h12HMGxbsfU-64" target="BOLauMaQ-h12HMGxbsfU-70">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1050" y="4610" as="sourcePoint" />
+            <mxPoint x="1210" y="4610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BOLauMaQ-h12HMGxbsfU-75" value="EncryptedSpUtil" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="548.75" y="4420" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BOLauMaQ-h12HMGxbsfU-76" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.364;exitY=0.004;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BOLauMaQ-h12HMGxbsfU-63" target="BOLauMaQ-h12HMGxbsfU-75">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="550" y="4510" as="sourcePoint" />
+            <mxPoint x="710" y="4510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BOLauMaQ-h12HMGxbsfU-77" value="MuteBroadcastReceiver" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="4890" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BOLauMaQ-h12HMGxbsfU-79" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="BOLauMaQ-h12HMGxbsfU-77">
+          <mxGeometry y="26" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="BOLauMaQ-h12HMGxbsfU-80" value="onReceive(Context context,Intent intent)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BOLauMaQ-h12HMGxbsfU-77">
+          <mxGeometry y="34" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BOLauMaQ-h12HMGxbsfU-81" value="BroadcastReceiver" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="5010" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BOLauMaQ-h12HMGxbsfU-82" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.472;exitY=1.038;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BOLauMaQ-h12HMGxbsfU-80" target="BOLauMaQ-h12HMGxbsfU-81">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="700" y="4990" as="sourcePoint" />
+            <mxPoint x="860" y="4990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BOLauMaQ-h12HMGxbsfU-83" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1.004;exitY=-0.115;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BOLauMaQ-h12HMGxbsfU-80">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1060" y="4920" as="sourcePoint" />
+            <mxPoint x="1220" y="4920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BOLauMaQ-h12HMGxbsfU-84" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="4689" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="BOLauMaQ-h12HMGxbsfU-85" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BOLauMaQ-h12HMGxbsfU-84">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BOLauMaQ-h12HMGxbsfU-86" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="BOLauMaQ-h12HMGxbsfU-84">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="BOLauMaQ-h12HMGxbsfU-87" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BOLauMaQ-h12HMGxbsfU-84">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
