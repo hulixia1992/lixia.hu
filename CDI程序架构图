@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-13T05:59:33.413Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="SA-Wa3nEz9hF_k2yyioX" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-14T10:52:50.925Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="BGTFuw2eg2uu9TCTWXN9" version="19.0.3" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="2523" dy="974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -604,6 +604,20 @@
         </mxCell>
         <mxCell id="ShIQAo0yvZSGWw-mGMoE-39" value="+encryptToAES(String data, String key):String&#xa;+decryptByAES(String data, String key):String&#xa;-doAES(String data, String key, int mode):String&#xa;-isBase64(String str):boolean&#xa;-str2ByteArray(String s):byte[]&#xa;+encryptToMD5(String info):String&#xa;-byte2hex(byte[] b):String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ShIQAo0yvZSGWw-mGMoE-36">
           <mxGeometry y="78" width="340" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="ShIQAo0yvZSGWw-mGMoE-41" value="UI" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="790" y="6060" width="550" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="ShIQAo0yvZSGWw-mGMoE-42" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;" vertex="1" parent="ShIQAo0yvZSGWw-mGMoE-41">
+          <mxGeometry width="550" height="252" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ShIQAo0yvZSGWw-mGMoE-43" value="RecommendFragment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ShIQAo0yvZSGWw-mGMoE-41">
+          <mxGeometry x="20" y="110" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ShIQAo0yvZSGWw-mGMoE-44" value="MainActivity" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ShIQAo0yvZSGWw-mGMoE-41">
+          <mxGeometry x="20" y="40" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
