@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-04T09:55:25.011Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Q19mv8JkYiYxREDthXFS" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-04T10:42:26.212Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="k9i8BnbYYrY14AZ5cQcV" version="20.0.3" type="github">
   <diagram id="NPkUFOCqk3_FyGpjMag2" name="Page-1">
-    <mxGraphModel dx="3662" dy="2028" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3955" dy="2174" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5809,10 +5809,10 @@
           <mxGeometry x="-1067" y="43972" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WQT4AmMJgtU8qbj7VwJs-1" value="getCover(Music music)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="-1669" y="44627" width="120" height="80" as="geometry" />
+          <mxGeometry x="-1665" y="44698" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WQT4AmMJgtU8qbj7VwJs-2" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1330" y="44627" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1328" y="44657" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WQT4AmMJgtU8qbj7VwJs-14" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WQT4AmMJgtU8qbj7VwJs-3" target="WQT4AmMJgtU8qbj7VwJs-4">
           <mxGeometry relative="1" as="geometry" />
@@ -5821,7 +5821,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WQT4AmMJgtU8qbj7VwJs-3" value="if(当前音乐已保存封面图片；The current music has a cover image saved)&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1406" y="44720" width="288" height="105" as="geometry" />
+          <mxGeometry x="-1406" y="44749" width="288" height="105" as="geometry" />
         </mxCell>
         <mxCell id="WQT4AmMJgtU8qbj7VwJs-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WQT4AmMJgtU8qbj7VwJs-4" target="WQT4AmMJgtU8qbj7VwJs-6">
           <mxGeometry relative="1" as="geometry" />
@@ -5902,6 +5902,33 @@
         </mxCell>
         <mxCell id="WQT4AmMJgtU8qbj7VwJs-23" value="end" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1559" y="45470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WQT4AmMJgtU8qbj7VwJs-28" value="&lt;font color=&quot;#cc0000&quot;&gt;1&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1357" y="44715" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WQT4AmMJgtU8qbj7VwJs-29" value="&lt;font color=&quot;#cc0000&quot;&gt;2&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1485" y="44770" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WQT4AmMJgtU8qbj7VwJs-31" value="&lt;font color=&quot;#cc0000&quot;&gt;3&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1352" y="44858" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WQT4AmMJgtU8qbj7VwJs-32" value="&lt;font color=&quot;#cc0000&quot;&gt;4&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1324" y="44962" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WQT4AmMJgtU8qbj7VwJs-33" value="&lt;font color=&quot;#cc0000&quot;&gt;5&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1324" y="45072" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WQT4AmMJgtU8qbj7VwJs-34" value="&lt;font color=&quot;#cc0000&quot;&gt;6&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1452" y="45186" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WQT4AmMJgtU8qbj7VwJs-35" value="&lt;font color=&quot;#cc0000&quot;&gt;7&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1172" y="45194" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WQT4AmMJgtU8qbj7VwJs-36" value="&lt;font color=&quot;#cc0000&quot;&gt;8&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1298" y="45334" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WQT4AmMJgtU8qbj7VwJs-37" value="&lt;font color=&quot;#cc0000&quot;&gt;9&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1060.25" y="45330" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
