@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T07:13:51.134Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Z2hMW9jW4XsZEBdGYIWE" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-23T08:09:33.086Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="smro5avXIRn0_zsvCy2O" version="20.1.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1822" dy="434" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -5000,6 +5000,93 @@
         </mxCell>
         <mxCell id="wL5uTeacA82pK_gauKUs-42" value="10.onPuase unregister gesture service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-400" y="27020" width="114" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wL5uTeacA82pK_gauKUs-43" value="Ambient Light" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="-736" y="27324" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wL5uTeacA82pK_gauKUs-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wL5uTeacA82pK_gauKUs-44" target="wL5uTeacA82pK_gauKUs-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wL5uTeacA82pK_gauKUs-44" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-513" y="27313" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wL5uTeacA82pK_gauKUs-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wL5uTeacA82pK_gauKUs-45" target="wL5uTeacA82pK_gauKUs-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wL5uTeacA82pK_gauKUs-45" value="进入应用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-513" y="27404" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wL5uTeacA82pK_gauKUs-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wL5uTeacA82pK_gauKUs-46" target="wL5uTeacA82pK_gauKUs-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wL5uTeacA82pK_gauKUs-46" value="氛围灯改变通知" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-513" y="27495" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wL5uTeacA82pK_gauKUs-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wL5uTeacA82pK_gauKUs-47" target="wL5uTeacA82pK_gauKUs-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wL5uTeacA82pK_gauKUs-47" value="更改UI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-513" y="27587" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wL5uTeacA82pK_gauKUs-48" value="x结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-513" y="27676" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wL5uTeacA82pK_gauKUs-53" value="Ambient Light" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="-786" y="27807" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wL5uTeacA82pK_gauKUs-54" value="UI" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=30;" vertex="1" parent="1">
+          <mxGeometry x="-582" y="27807" width="97" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="wL5uTeacA82pK_gauKUs-56" value="ambientlight" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=30;" vertex="1" parent="1">
+          <mxGeometry x="-312" y="27801" width="97" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="wL5uTeacA82pK_gauKUs-57" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.526;entryY=0.116;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wL5uTeacA82pK_gauKUs-54" target="wL5uTeacA82pK_gauKUs-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-485" y="27914" as="sourcePoint" />
+            <mxPoint x="-435" y="27864" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wL5uTeacA82pK_gauKUs-58" value="1.Initialize the mood lighting UI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-436" y="27843" width="133" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wL5uTeacA82pK_gauKUs-59" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.522;entryY=0.203;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.509;exitY=0.196;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="wL5uTeacA82pK_gauKUs-54" target="wL5uTeacA82pK_gauKUs-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-410" y="27959" as="sourcePoint" />
+            <mxPoint x="-360" y="27909" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wL5uTeacA82pK_gauKUs-60" value="2.Register for Ambient Lighting Broadcast" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-445" y="27899" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wL5uTeacA82pK_gauKUs-62" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.522;exitY=0.289;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="wL5uTeacA82pK_gauKUs-54" target="wL5uTeacA82pK_gauKUs-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-390" y="28040" as="sourcePoint" />
+            <mxPoint x="-340" y="27990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wL5uTeacA82pK_gauKUs-63" value="3.Register views related to ambient lighting" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-443" y="27958" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wL5uTeacA82pK_gauKUs-64" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.495;exitY=0.354;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.522;entryY=0.47;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wL5uTeacA82pK_gauKUs-56" target="wL5uTeacA82pK_gauKUs-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-172" y="28055" as="sourcePoint" />
+            <mxPoint x="-122" y="28005" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-147" y="28064" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wL5uTeacA82pK_gauKUs-66" value="4.Change UI after receiving ambient light broadcast" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="28026" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wL5uTeacA82pK_gauKUs-67" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.529;exitY=0.518;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="wL5uTeacA82pK_gauKUs-54" target="wL5uTeacA82pK_gauKUs-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-397" y="28177" as="sourcePoint" />
+            <mxPoint x="-347" y="28127" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wL5uTeacA82pK_gauKUs-68" value="5.unregister views related to ambient lighting" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="28106" width="145" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
