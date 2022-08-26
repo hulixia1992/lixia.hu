@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-14T03:35:31.568Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="XEa1iePeFmrG4zwD4ise" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-26T10:13:36.411Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="hIYDqRpS6cimh9I4S5MN" version="20.2.6" type="github">
   <diagram id="NPkUFOCqk3_FyGpjMag2" name="Page-1">
-    <mxGraphModel dx="3662" dy="1938" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4062" dy="1994" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6119,14 +6119,68 @@
         <mxCell id="WQT4AmMJgtU8qbj7VwJs-101" value="&lt;font color=&quot;#cc0000&quot;&gt;5&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1792.5" y="47667" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NfcJiTlbWuWqH7n3IcK8-1" value="&lt;font color=&quot;#cc0000&quot;&gt;1&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NfcJiTlbWuWqH7n3IcK8-1" value="&lt;font color=&quot;#cc0000&quot;&gt;1&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-654.75" y="37689" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NfcJiTlbWuWqH7n3IcK8-2" value="&lt;font color=&quot;#cc0000&quot;&gt;2&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NfcJiTlbWuWqH7n3IcK8-2" value="&lt;font color=&quot;#cc0000&quot;&gt;2&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-737" y="37795" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NfcJiTlbWuWqH7n3IcK8-3" value="&lt;font color=&quot;#cc0000&quot;&gt;3&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NfcJiTlbWuWqH7n3IcK8-3" value="&lt;font color=&quot;#cc0000&quot;&gt;3&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-504.25" y="37800" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dbdQBT65LnY0U5Maaywq-1" value="UpdateAllAmbientView" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="-1999" y="48148" width="136" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dbdQBT65LnY0U5Maaywq-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dbdQBT65LnY0U5Maaywq-2" target="dbdQBT65LnY0U5Maaywq-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dbdQBT65LnY0U5Maaywq-2" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1696.5" y="48128" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dbdQBT65LnY0U5Maaywq-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dbdQBT65LnY0U5Maaywq-3" target="dbdQBT65LnY0U5Maaywq-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dbdQBT65LnY0U5Maaywq-3" value="for (AmbientView ambientView : ambientViews)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1749" y="48234" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dbdQBT65LnY0U5Maaywq-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dbdQBT65LnY0U5Maaywq-4" target="dbdQBT65LnY0U5Maaywq-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dbdQBT65LnY0U5Maaywq-4" value="ambientView.updateAmbientColor();" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1743" y="48333" width="213" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dbdQBT65LnY0U5Maaywq-5" value="end" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1696.5" y="48443" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dbdQBT65LnY0U5Maaywq-9" value="parseAmbientValue" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="-2043" y="48578" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dbdQBT65LnY0U5Maaywq-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dbdQBT65LnY0U5Maaywq-10" target="dbdQBT65LnY0U5Maaywq-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dbdQBT65LnY0U5Maaywq-10" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1772" y="48588" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dbdQBT65LnY0U5Maaywq-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dbdQBT65LnY0U5Maaywq-11" target="dbdQBT65LnY0U5Maaywq-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dbdQBT65LnY0U5Maaywq-11" value="AmbientLightBean ambientLightBean = new Gson().fromJson(value, AmbientLightBean.class);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1875" y="48699" width="326" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dbdQBT65LnY0U5Maaywq-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dbdQBT65LnY0U5Maaywq-12" target="dbdQBT65LnY0U5Maaywq-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dbdQBT65LnY0U5Maaywq-12" value="bcmColor = Color.parseColor(ambientLightBean.getBcmColor());&#xa;        dayColorBean = ambientLightBean.getDay();&#xa;        nightColorBean = ambientLightBean.getNight();" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1901" y="48810" width="377" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dbdQBT65LnY0U5Maaywq-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dbdQBT65LnY0U5Maaywq-13" target="dbdQBT65LnY0U5Maaywq-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dbdQBT65LnY0U5Maaywq-13" value="Initialize day and night mode colors" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1848" y="48916" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dbdQBT65LnY0U5Maaywq-14" value="end" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1772" y="49004" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
